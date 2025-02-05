@@ -4255,6 +4255,30 @@
             "masterid": "006",
             "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Contact\"},{\"optionid\":\"002\",\"optionvalue\":\"Account\"},{\"optionid\":\"003\",\"optionvalue\":\"Opportunity\"},{\"optionid\":\"004\",\"optionvalue\":\"Tickets\"}]",
             "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "007",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"BMobile\"},{\"optionid\":\"002\",\"optionvalue\":\"CMS\"},{\"optionid\":\"003\",\"optionvalue\":\"ISC\"},{\"optionid\":\"004\",\"optionvalue\":\"STS\"},{\"optionid\":\"005\",\"optionvalue\":\"VTS\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "008",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Admin\"},{\"optionid\":\"002\",\"optionvalue\":\"Sales\"},{\"optionid\":\"003\",\"optionvalue\":\"CEO\"},{\"optionid\":\"004\",\"optionvalue\":\"Development\"},{\"optionid\":\"005\",\"optionvalue\":\"Product Analyst\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "009",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Request\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "010",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Approval\"}]",
+            "groupvalue": {}
           }
         ]
       },
