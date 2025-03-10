@@ -9198,5 +9198,2490 @@
       ],
       "totalRecords": 20
     }
+  },
+
+  "productlist_getlookupdatabyid": {
+    "result": {
+      "data": {
+        "lookupentityid": "5cdc0f7a-0670-45a8-b87e-3b131390931c",
+        "lookupvalues": [
+          {
+            "islookup": true,
+            "masterid": "12AAF129-4402-4545-A8BF-B6BD67B8D00B",
+            "mastervalues": "[{\"optionid\":\"7000\",\"optionvalue\":\"Project Type\"},{\"optionid\":\"7001\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7002\",\"optionvalue\":\"Status\"},{\"optionid\":\"7003\",\"optionvalue\":\"Plan Year\"},{\"optionid\":\"7004\",\"optionvalue\":\"Plan Month\"},{\"optionid\":\"7005\",\"optionvalue\":\"Plan Week\"},{\"optionid\":\"7006\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7006\",\"optionvalue\":\"Type\"},{\"optionid\":\"7007\",\"optionvalue\":\"Family\"},{\"optionid\":\"7008\",\"optionvalue\":\"PlanQuarter\"},{\"optionid\":\"7009\",\"optionvalue\":\"DeliverableType\"},{\"optionid\":\"7010\",\"optionvalue\":\"Project Top\"},{\"optionid\":\"7011\",\"optionvalue\":\"Due Week\"},{\"optionid\":\"7012\",\"optionvalue\":\"Work week\"},{\"optionid\":\"7013\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7014\",\"optionvalue\":\"Type\"},{\"optionid\":\"7015\",\"optionvalue\":\"Category\"},{\"optionid\":\"7016\",\"optionvalue\":\"Sub Category\"},{\"optionid\":\"7017\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7018\",\"optionvalue\":\"Status\"},{\"optionid\":\"7019\",\"optionvalue\":\"Plan Year\"},{\"optionid\":\"7020\",\"optionvalue\":\"Plan Month\"},{\"optionid\":\"7021\",\"optionvalue\":\"Plan Week\"},{\"optionid\":\"7022\",\"optionvalue\":\"Work Week\"},{\"optionid\":\"7023\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7024\",\"optionvalue\":\"PlanQuarter\"},{\"optionid\":\"7025\",\"optionvalue\":\"Deliverable Type\"},{\"optionid\":\"7026\",\"optionvalue\":\"State\"},{\"optionid\":\"7027\",\"optionvalue\":\"Size\"},{\"optionid\":\"7028\",\"optionvalue\":\"RStartweek\"},{\"optionid\":\"7029\",\"optionvalue\":\"REndweek\"},{\"optionid\":\"7030\",\"optionvalue\":\"RFeedback\"},{\"optionid\":\"7037\",\"optionvalue\":\"Followup Type\"},{\"optionid\":\"7038\",\"optionvalue\":\"plan Source\"},{\"optionid\":\"7039\",\"optionvalue\":\"Functional Area\"},{\"optionid\":\"7040\",\"optionvalue\":\"Effort\"},{\"optionid\":\"7041\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7042\",\"optionvalue\":\"Time Criticality\"},{\"optionid\":\"7043\",\"optionvalue\":\"WorkFlow Status\"},{\"optionid\":\"7044\",\"optionvalue\":\"category\"},{\"optionid\":\"7045\",\"optionvalue\":\"session\"},{\"optionid\":\"7031\",\"optionvalue\":\"Sub Category\"},{\"optionid\":\"7032\",\"optionvalue\":\"Entity Type\"},{\"optionid\":\"7033\",\"optionvalue\":\"Category\"},{\"optionid\":\"7034\",\"optionvalue\":\"Column Type\"},{\"optionid\":\"7036\",\"optionvalue\":\"Lookup\\/Option\"},{\"optionid\":\"7035\",\"optionvalue\":\"Field Type\"},{\"optionid\":\"8002\",\"optionvalue\":\"TimeLine\"},{\"optionid\":\"8003\",\"optionvalue\":\"ReasonCode\"},{\"optionid\":\"8004\",\"optionvalue\":\"PlanTimeLine\"},{\"optionid\":\"351000001\",\"optionvalue\":\"PlanTimeline\"},{\"optionid\":\"7910\",\"optionvalue\":\"Reason Code\"},{\"optionid\":\"8004\",\"optionvalue\":\"FollowupStatus\"},{\"optionid\":\"8005\",\"optionvalue\":\"ImportStatus\"},{\"optionid\":\"8006\",\"optionvalue\":\"TagColor\"},{\"optionid\":\"11001\",\"optionvalue\":\"LeadStatusCode\"},{\"optionid\":\"201\",\"optionvalue\":\"CustomerSizeCode\"},{\"optionid\":\"202\",\"optionvalue\":\"CustomerTypeCode\"},{\"optionid\":\"203\",\"optionvalue\":\"PreferredContactMethodCode\"},{\"optionid\":\"204\",\"optionvalue\":\"LeadSourceCode\"},{\"optionid\":\"205\",\"optionvalue\":\"PaymentTermsCode\"},{\"optionid\":\"213\",\"optionvalue\":\"Status 1\"},{\"optionid\":\"224\",\"optionvalue\":\"Preferred Appointment Day Code\"},{\"optionid\":\"225\",\"optionvalue\":\"PreferredAppointmentTimeCode\"},{\"optionid\":\"301\",\"optionvalue\":\"Account Category Code\"},{\"optionid\":\"305\",\"optionvalue\":\"Account Rating Code\"},{\"optionid\":\"306\",\"optionvalue\":\"Industry Code\"},{\"optionid\":\"308\",\"optionvalue\":\"Account Classification Code\"},{\"optionid\":\"309\",\"optionvalue\":\"Business Type Code\"},{\"optionid\":\"2001\",\"optionvalue\":\"Process Stage\"},{\"optionid\":\"215\",\"optionvalue\":\"Address1 Address TypeCode\"},{\"optionid\":\"231\",\"optionvalue\":\"Lead Quality Code\"},{\"optionid\":\"214\",\"optionvalue\":\"Status Code\"},{\"optionid\":\"217\",\"optionvalue\":\"Address1 Shipping Method Code\"},{\"optionid\":\"416\",\"optionvalue\":\"Rating\"},{\"optionid\":\"417\",\"optionvalue\":\"Lead Score\"},{\"optionid\":\"422\",\"optionvalue\":\"Preferred Service\"},{\"optionid\":\"423\",\"optionvalue\":\"Department\"},{\"optionid\":\"424\",\"optionvalue\":\"Products\"},{\"optionid\":\"9000\",\"optionvalue\":\"Task Type\"},{\"optionid\":\"9001\",\"optionvalue\":\"Task Status\"},{\"optionid\":\"9002\",\"optionvalue\":\"Task priority\"},{\"optionid\":\"9005\",\"optionvalue\":\"Outcome\"},{\"optionid\":\"9006\",\"optionvalue\":\"EmailStatus\"},{\"optionid\":\"9007\",\"optionvalue\":\"RelatedInstanceStatus\"},{\"optionid\":\"9008\",\"optionvalue\":\"StepRelatedto\"},{\"optionid\":\"9009\",\"optionvalue\":\"Timezone\"},{\"optionid\":\"9010\",\"optionvalue\":\"Operator\"},{\"optionid\":\"9007\",\"optionvalue\":\"RelatedInstanceStatus\"},{\"optionid\":\"9008\",\"optionvalue\":\"StepRelatedto\"},{\"optionid\":\"9009\",\"optionvalue\":\"Timezone\"},{\"optionid\":\"9010\",\"optionvalue\":\"Operator\"},{\"optionid\":\"7040\",\"optionvalue\":\"Workitem Type\"},{\"optionid\":\"351000000\",\"optionvalue\":\"Chunk\"},{\"optionid\":\"4000\",\"optionvalue\":\"Progress Status\"},{\"optionid\":\"8000\",\"optionvalue\":\"WorkDay\"},{\"optionid\":\"8001\",\"optionvalue\":\"WorkWeek\"},{\"optionid\":\"8007\",\"optionvalue\":\"Relationshiptype\"},{\"optionid\":\"237\",\"optionvalue\":\"Sales Stage\"},{\"optionid\":\"401\",\"optionvalue\":\"Budget Status\"},{\"optionid\":\"404\",\"optionvalue\":\"Opportunity Rating Code\"},{\"optionid\":\"9003\",\"optionvalue\":\"Duration\"},{\"optionid\":\"9004\",\"optionvalue\":\"RelatedTo\"},{\"optionid\":\"9020\",\"optionvalue\":\"Sequence Status\"},{\"optionid\":\"414\",\"optionvalue\":\"State Code\"},{\"optionid\":\"415\",\"optionvalue\":\"Account Status\"},{\"optionid\":\"418\",\"optionvalue\":\"Affirmation\"},{\"optionid\":\"419\",\"optionvalue\":\"Annual Revenue\"},{\"optionid\":\"420\",\"optionvalue\":\"Number of Employees\"},{\"optionid\":\"421\",\"optionvalue\":\"Transaction Currency\"},{\"optionid\":\"8009\",\"optionvalue\":\"Call Outcome\"},{\"optionid\":\"8010\",\"optionvalue\":\"Direction\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7001",
+            "mastervalues": "[{\"optionid\":\"31\",\"optionvalue\":\"Immediate\"},{\"optionid\":\"32\",\"optionvalue\":\"Important\"},{\"optionid\":\"33\",\"optionvalue\":\"A\"},{\"optionid\":\"34\",\"optionvalue\":\"B\"},{\"optionid\":\"35\",\"optionvalue\":\"C\"},{\"optionid\":\"36\",\"optionvalue\":\"D\"},{\"optionid\":\"37\",\"optionvalue\":\"X\"},{\"optionid\":\"38\",\"optionvalue\":\"Urgent\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7032",
+            "mastervalues": "[{\"optionid\":\"591\",\"optionvalue\":\"Core\"},{\"optionid\":\"592\",\"optionvalue\":\"Associated\"},{\"optionid\":\"593\",\"optionvalue\":\"Functional\"},{\"optionid\":\"594\",\"optionvalue\":\"System\"},{\"optionid\":\"595\",\"optionvalue\":\"text\"},{\"optionid\":\"596\",\"optionvalue\":\"Custom\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7033",
+            "mastervalues": "[{\"optionid\":\"589\",\"optionvalue\":\"Core\"},{\"optionid\":\"590\",\"optionvalue\":\"OpsAnalytics\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7031",
+            "mastervalues": "[{\"optionid\":\"585\",\"optionvalue\":\"Core\"},{\"optionid\":\"586\",\"optionvalue\":\"Business\"},{\"optionid\":\"587\",\"optionvalue\":\"Performance\"},{\"optionid\":\"588\",\"optionvalue\":\"DataBase\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7034",
+            "mastervalues": "[{\"optionid\":\"600\",\"optionvalue\":\"Uniqueidentifier\"},{\"optionid\":\"601\",\"optionvalue\":\"bit\"},{\"optionid\":\"607\",\"optionvalue\":\"date\"},{\"optionid\":\"597\",\"optionvalue\":\"datetime\"},{\"optionid\":\"598\",\"optionvalue\":\"text\"},{\"optionid\":\"599\",\"optionvalue\":\"numeric\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7035",
+            "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"textbox\"},{\"optionid\":\"603\",\"optionvalue\":\"Multiselect\"},{\"optionid\":\"604\",\"optionvalue\":\"Dropdown\"},{\"optionid\":\"605\",\"optionvalue\":\"Date Picker\"},{\"optionid\":\"606\",\"optionvalue\":\"Radio button\"},{\"optionid\":\"608\",\"optionvalue\":\"Checkbox\"},{\"optionid\":\"19000510622\",\"optionvalue\":\"Text area\"},{\"optionid\":\"19000510614\",\"optionvalue\":\"Textbox_time\"},{\"optionid\":\"19000510668\",\"optionvalue\":\"Tag\"},{\"optionid\":\"19000510605\",\"optionvalue\":\"datepicker\"},{\"optionid\":\"19000510606\",\"optionvalue\":\"weekfilter\"},{\"optionid\":\"19000510664\",\"optionvalue\":\"Progressbar\"},{\"optionid\":\"19000510907\",\"optionvalue\":\"Link\"},{\"optionid\":\"19000510927\",\"optionvalue\":\"addonbutton\"},{\"optionid\":\"19000510913\",\"optionvalue\":\"Form Groups\"},{\"optionid\":\"19000510914\",\"optionvalue\":\"Number\"},{\"optionid\":\"19000510875\",\"optionvalue\":\"Workflow\"},{\"optionid\":\"19000510876\",\"optionvalue\":\"Time\"},{\"optionid\":\"19000510908\",\"optionvalue\":\"onclickloadmultiselect\"},{\"optionid\":\"19000510909\",\"optionvalue\":\"onclickloaddropdown\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "000100",
+            "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"Lead\"},{\"optionid\":\"603\",\"optionvalue\":\"Contact\"},{\"optionid\":\"604\",\"optionvalue\":\"Account\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "000101",
+            "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"Jack Peterson\"},{\"optionid\":\"603\",\"optionvalue\":\"John Beck\"},{\"optionid\":\"604\",\"optionvalue\":\"Mac Hans\"},{\"optionid\":\"605\",\"optionvalue\":\"Michael William\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "000102",
+            "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"Active\"},{\"optionid\":\"603\",\"optionvalue\":\"Inactive\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "5CDC0F7A-0670-45A8-B87E-3B131390931C",
+            "mastervalues": "[{\"optionid\":\"1A3D1758-F4C1-47E0-85A9-D36078F878F4\",\"optionvalue\":\"Contact\"},{\"optionid\":\"E66E5177-DFD2-48A5-BBDE-C8891C37F943\",\"optionvalue\":\"User\"},{\"optionid\":\"5EEEC781-9DA2-4214-A581-D1D81046ABE7\",\"optionvalue\":\"Lead\"},{\"optionid\":\"E00EE1B6-9D36-412D-839D-6AF9DD3358C1\",\"optionvalue\":\"Opportunity\"},{\"optionid\":\"5CDC0F7A-0670-45A8-B87E-3B131390931C\",\"optionvalue\":\"Entities\"},{\"optionid\":\"70C75211-155C-45DC-B155-002DBB5CCE91\",\"optionvalue\":\"Attributes\"},{\"optionid\":\"12AAF129-4402-4545-A8BF-B6BD67B8D00B\",\"optionvalue\":\"Option Set\"},{\"optionid\":\"BAB7C355-6476-4B3F-8E65-76763D41C196\",\"optionvalue\":\"Call\"},{\"optionid\":\"7CBE78CB-AD34-4586-8CFE-C47F13C27FE6\",\"optionvalue\":\"Notes\"},{\"optionid\":\"FEF5C2D1-AB1A-443E-A8C5-3A289B514E70\",\"optionvalue\":\"Task\"},{\"optionid\":\"EE000C0A-89C0-4811-8D26-4E1633121C91\",\"optionvalue\":\"Meeting\"},{\"optionid\":\"ED48DF57-F563-4D7D-97E3-3A4E60EB6441\",\"optionvalue\":\"ImportTemplate\"},{\"optionid\":\"6785FF3A-C8F9-4848-ADB0-E22F6F7B305F\",\"optionvalue\":\"ImportData\"},{\"optionid\":\"13C63A2D-78A6-4D92-8F6B-53F509400E4E\",\"optionvalue\":\"ImportDataVersion\"},{\"optionid\":\"4BC89935-537A-4643-9CBC-D76568FF61B8\",\"optionvalue\":\"Email\"},{\"optionid\":\"18A0DE1A-86BC-4733-B4DE-129CC6C360EF\",\"optionvalue\":\"Tag\"},{\"optionid\":\"D64FB49A-56B4-4B98-AAD6-C1F0C8FA27F0\",\"optionvalue\":\"ARC_EmailTemplateMaster\"},{\"optionid\":\"B9DA0C5A-3DE8-4D68-9A60-67A28EA89E8F\",\"optionvalue\":\"Options\"},{\"optionid\":\"A20EBE31-65C2-4F74-98A3-6D3ADBF77FE7\",\"optionvalue\":\"Sequence\"},{\"optionid\":\"22DE8E7F-D610-4B06-86D6-F9E1988DE8FC\",\"optionvalue\":\"Campaign\"},{\"optionid\":\"2045F2BB-9C55-4399-82DC-C90F1F5514F3\",\"optionvalue\":\"ARC_EmailTemplate_Attachments\"},{\"optionid\":\"BC082DF0-857D-4B63-B0A4-69D33E303961\",\"optionvalue\":\"ARC_Email_Transactions\"},{\"optionid\":\"09D03B62-16AC-48D2-9EF4-42EC8136A217\",\"optionvalue\":\"ARC_Email_Attachments\"},{\"optionid\":\"7E6694D1-8477-4E8A-A19F-477156E832FF\",\"optionvalue\":\"TagGroup\"},{\"optionid\":\"0033280D-4FF4-4F57-8029-E61A1606D3C2\",\"optionvalue\":\"TestEntityNov\"},{\"optionid\":\"A368800B-89CA-4ACB-84F9-36C2D2135D0F\",\"optionvalue\":\"TestEntity\"},{\"optionid\":\"4492D9C0-F91A-4F9A-9476-56AE62C171BD\",\"optionvalue\":\"Account\"},{\"optionid\":\"2F4A69F6-91FC-437B-9ACF-E3B0D11E1193\",\"optionvalue\":\"Test_Merchant\"},{\"optionid\":\"FC2B02BC-5D39-43F5-B758-9E64BDD887F6\",\"optionvalue\":\"Arc_WorkFlow\"},{\"optionid\":\"27D05E79-E67B-41BE-8E8D-684268430F48\",\"optionvalue\":\"WorkFlow\"},{\"optionid\":\"B347784C-2C93-4D3E-8C2F-F9C8BDFA5755\",\"optionvalue\":\"WorkFlowStages\"},{\"optionid\":\"91BC1850-B70A-4E9B-A65D-B9919FBA437C\",\"optionvalue\":\"WorkFlowStatus\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "001",
+            "mastervalues": "[{\"optionid\":\"1A3D1758-F4C1-47E0-85A9-D36078F878F4\",\"optionvalue\":\"Low\"},{\"optionid\":\"E66E5177-DFD2-48A5-BBDE-C8891C37F943\",\"optionvalue\":\"High\"},{\"optionid\":\"E66E5177-DFD2-48A5-BBDE-C8891C37dsdF943\",\"optionvalue\":\"Medium\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "002",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Open\"},{\"optionid\":\"002\",\"optionvalue\":\"Inprogress\"},{\"optionid\":\"003\",\"optionvalue\":\"Waiting for Approval\"},{\"optionid\":\"004\",\"optionvalue\":\"New\"},{\"optionid\":\"005\",\"optionvalue\":\"Resolved\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "003",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Form\"},{\"optionid\":\"002\",\"optionvalue\":\"Email\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "004",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Emily Johnson\"},{\"optionid\":\"002\",\"optionvalue\":\"Michael Smith\"},{\"optionid\":\"003\",\"optionvalue\":\"Jessica Williams\"},{\"optionid\":\"004\",\"optionvalue\":\"David Brown\"},{\"optionid\":\"005\",\"optionvalue\":\"David Brown\"},{\"optionid\":\"005\",\"optionvalue\":\"Joshua Miller\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "005",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Contact\"},{\"optionid\":\"002\",\"optionvalue\":\"Account\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "006",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Contact\"},{\"optionid\":\"002\",\"optionvalue\":\"Account\"},{\"optionid\":\"003\",\"optionvalue\":\"Opportunity\"},{\"optionid\":\"004\",\"optionvalue\":\"Tickets\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "007",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"BMobile\"},{\"optionid\":\"002\",\"optionvalue\":\"CMS\"},{\"optionid\":\"003\",\"optionvalue\":\"ISC\"},{\"optionid\":\"004\",\"optionvalue\":\"STS\"},{\"optionid\":\"005\",\"optionvalue\":\"VTS\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "008",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Admin\"},{\"optionid\":\"002\",\"optionvalue\":\"Sales\"},{\"optionid\":\"003\",\"optionvalue\":\"CEO\"},{\"optionid\":\"004\",\"optionvalue\":\"Development\"},{\"optionid\":\"005\",\"optionvalue\":\"Product Analyst\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "009",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Request\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "010",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Approval\"}]",
+            "groupvalue": {}
+          }
+        ]
+      },
+      "messages": [],
+      "succeeded": true
+    }
+  },
+  "productlist_getlistconfigbyid": {
+    "result": {
+      "list": [
+        {
+          "id": "8202cff6-0a0d-47af-9516-eace2b886c96",
+          "entityid": "5cdc0f7a-0670-45a8-b87e-3b131390931c",
+          "entityname": "Entities",
+          "name": "Entity",
+          "header": {
+            "name": "Entities"
+          },
+          "type": "List",
+          "data": {
+            "dataset": [
+              {
+                "datasetid": "e463d6b2-80d7-4288-b603-9386c1d740f01",
+                "title": "All Productlist",
+                "isdefault": true,
+                "isselected": true,
+                "owner": "system",
+                "seqno": 2
+              }
+            ],
+            "config": {
+              "listfields": [
+                {
+                  "id": "productlist00",
+                  "name": "Product ID",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "ProductID",
+                  "inlineeditable": null,
+                  "istitle": true,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist02",
+                  "name": "Product Name",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "ProductName",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist03",
+                  "name": "Product Number",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "ProductNumber",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist04",
+                  "name": "Product Type",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "ProductType",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist05",
+                  "name": "Product Family",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "ProductFamily",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist06",
+                  "name": "SKU",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": true,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "SKU",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist07",
+                  "name": "Onhand",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "Onhand",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist08",
+                  "name": "Current Cost",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "CurrentCost",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist09",
+                  "name": "Current Price",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": true,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "CurrentPrice",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                }
+              ],
+              "filterfields": [
+                {
+                  "id": "001",
+                  "name": "Product ID",
+                  "lablekey": "entity-type-lbl",
+                  "seqno": 5,
+                  "filtercontroltype": "textbox",
+                  "isquickfilter": true,
+                  "api_name": "EntityType",
+                  "islookup": true,
+                  "masterid": "",
+                  "apioutputskey": "optionid",
+                  "apioutputvalue": "optionvalue"
+                },
+                {
+                  "id": "003",
+                  "name": "Product Name",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "004",
+                  "name": "Product Number",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "005",
+                  "name": "Product Type",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "006",
+                  "name": "Product Family",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "007",
+                  "name": "SKU",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "datepicker",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "008",
+                  "name": "Onhand",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "datepicker",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                }
+              ],
+              "groupbyfields": [
+                {
+                  "id": "081880af-a45b-40ab-bfc1-c4ea60e7ce63",
+                  "name": "Product Name",
+                  "labelkey": "contact_workflowstatus_lbl",
+                  "seqno": null,
+                  "api_name": "Workflow Status",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "91BC1850-B70A-4E9B-A65D-B9919FBA437C"
+                },
+                {
+                  "id": "4ea16646-f64b-4749-b61d-8fd9593cf591",
+                  "name": "Product Number",
+                  "labelkey": "contact_workflowstage_lbl",
+                  "seqno": null,
+                  "api_name": "Workflow Stage",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "B347784C-2C93-4D3E-8C2F-F9C8BDFA5755"
+                },
+                {
+                  "id": "61376780-b621-46cd-97ad-49e415e33736",
+                  "name": "Product Type",
+                  "labelkey": "lbl-Account-CustomerTypeCode",
+                  "seqno": null,
+                  "api_name": "CustomerTypeCode",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "202"
+                },
+                {
+                  "id": "8d6a7e26-81ad-4299-b21f-e601a8754afa",
+                  "name": "Product Family",
+                  "labelkey": "lbl-Account-CustomerSizeCode",
+                  "seqno": null,
+                  "api_name": "CustomerSizeCode",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "201"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "productlist_getdatasetfieldinfobyid": {
+    "result": {
+      "id": "e463d6b2-80d7-4288-b603-9386c1d740f0",
+      "name": "All Workflows",
+      "owner": null,
+      "isdefault": true,
+      "last_accessed_time": null,
+      "filters": [
+        {
+          "id": "001",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Product ID",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        },
+        {
+          "id": "003",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Product Name",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        },
+        {
+          "id": "004",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Product Number",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        },
+        {
+          "id": "005",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Product Type",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        },
+        {
+          "id": "006",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Product Family",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        }
+      ],
+      "groupby": [],
+      "columns": [
+        {
+          "id": "productlist00",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "ProductID",
+          "columnwidth": 150
+        },
+        {
+          "id": "productlist02",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "ProductName",
+          "columnwidth": 150
+        },
+        {
+          "id": "productlist03",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "ProductNumber",
+          "columnwidth": 150
+        },
+        {
+          "id": "productlist04",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "ProductType",
+          "columnwidth": 150
+        },
+        {
+          "id": "productlist05",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "ProductFamily",
+          "columnwidth": 150
+        },
+
+        {
+          "id": "productlist06",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "SKU",
+          "columnwidth": 150
+        },
+
+        {
+          "id": "productlist07",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "CurrentCost",
+          "columnwidth": 150
+        },
+        {
+          "id": "productlist09",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "Onhand",
+          "columnwidth": 150
+        },
+        {
+          "id": "productlist08",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "CurrentPrice",
+          "columnwidth": 150
+        }
+      ]
+    }
+  },
+  "productlist_listdata": {
+    "result": {
+      "data": [
+        {
+          "ProductID": "PRO1",
+          "ProductName": "Laptop",
+          "ProductNumber": "101",
+          "ProductType": "Product",
+          "ProductFamily": "Hardware",
+          "SKU": "1",
+          "Onhand": "45",
+          "CurrentCost": "600",
+          "CurrentPrice": "12.99"
+        },
+        {
+          "ProductID": "PRO2",
+          "ProductName": "Mouse",
+          "ProductNumber": "102",
+          "ProductType": "Accessory",
+          "ProductFamily": "Peripherals",
+          "SKU": "2",
+          "Onhand": "150",
+          "CurrentCost": "25",
+          "CurrentPrice": "5.99"
+        },
+        {
+          "ProductID": "PRO3",
+          "ProductName": "Keyboard",
+          "ProductNumber": "103",
+          "ProductType": "Accessory",
+          "ProductFamily": "Peripherals",
+          "SKU": "3",
+          "Onhand": "120",
+          "CurrentCost": "40",
+          "CurrentPrice": "9.99"
+        },
+        {
+          "ProductID": "PRO4",
+          "ProductName": "Monitor",
+          "ProductNumber": "104",
+          "ProductType": "Product",
+          "ProductFamily": "Hardware",
+          "SKU": "4",
+          "Onhand": "60",
+          "CurrentCost": "150",
+          "CurrentPrice": "79.99"
+        },
+        {
+          "ProductID": "PRO5",
+          "ProductName": "Printer",
+          "ProductNumber": "105",
+          "ProductType": "Product",
+          "ProductFamily": "Hardware",
+          "SKU": "5",
+          "Onhand": "30",
+          "CurrentCost": "200",
+          "CurrentPrice": "99.99"
+        },
+        {
+          "ProductID": "PRO6",
+          "ProductName": "Webcam",
+          "ProductNumber": "106",
+          "ProductType": "Accessory",
+          "ProductFamily": "Peripherals",
+          "SKU": "6",
+          "Onhand": "85",
+          "CurrentCost": "35",
+          "CurrentPrice": "19.99"
+        },
+        {
+          "ProductID": "PRO7",
+          "ProductName": "External Hard Drive",
+          "ProductNumber": "107",
+          "ProductType": "Storage",
+          "ProductFamily": "Hardware",
+          "SKU": "7",
+          "Onhand": "75",
+          "CurrentCost": "90",
+          "CurrentPrice": "49.99"
+        },
+        {
+          "ProductID": "PRO8",
+          "ProductName": "USB Flash Drive",
+          "ProductNumber": "108",
+          "ProductType": "Storage",
+          "ProductFamily": "Hardware",
+          "SKU": "8",
+          "Onhand": "200",
+          "CurrentCost": "15",
+          "CurrentPrice": "7.99"
+        },
+        {
+          "ProductID": "PRO9",
+          "ProductName": "Router",
+          "ProductNumber": "109",
+          "ProductType": "Networking",
+          "ProductFamily": "Hardware",
+          "SKU": "9",
+          "Onhand": "50",
+          "CurrentCost": "120",
+          "CurrentPrice": "59.99"
+        },
+        {
+          "ProductID": "PRO10",
+          "ProductName": "Graphics Card",
+          "ProductNumber": "110",
+          "ProductType": "Component",
+          "ProductFamily": "Hardware",
+          "SKU": "10",
+          "Onhand": "35",
+          "CurrentCost": "400",
+          "CurrentPrice": "299.99"
+        },
+        {
+          "ProductID": "PRO11",
+          "ProductName": "RAM",
+          "ProductNumber": "111",
+          "ProductType": "Component",
+          "ProductFamily": "Hardware",
+          "SKU": "11",
+          "Onhand": "65",
+          "CurrentCost": "80",
+          "CurrentPrice": "39.99"
+        },
+        {
+          "ProductID": "PRO12",
+          "ProductName": "Motherboard",
+          "ProductNumber": "112",
+          "ProductType": "Component",
+          "ProductFamily": "Hardware",
+          "SKU": "12",
+          "Onhand": "40",
+          "CurrentCost": "220",
+          "CurrentPrice": "149.99"
+        },
+        {
+          "ProductID": "PRO13",
+          "ProductName": "Power Supply",
+          "ProductNumber": "113",
+          "ProductType": "Component",
+          "ProductFamily": "Hardware",
+          "SKU": "13",
+          "Onhand": "55",
+          "CurrentCost": "100",
+          "CurrentPrice": "79.99"
+        },
+        {
+          "ProductID": "PRO14",
+          "ProductName": "Gaming Chair",
+          "ProductNumber": "114",
+          "ProductType": "Furniture",
+          "ProductFamily": "Accessories",
+          "SKU": "14",
+          "Onhand": "25",
+          "CurrentCost": "180",
+          "CurrentPrice": "129.99"
+        },
+        {
+          "ProductID": "PRO15",
+          "ProductName": "Desk",
+          "ProductNumber": "115",
+          "ProductType": "Furniture",
+          "ProductFamily": "Accessories",
+          "SKU": "15",
+          "Onhand": "20",
+          "CurrentCost": "250",
+          "CurrentPrice": "199.99"
+        },
+        {
+          "ProductID": "PRO16",
+          "ProductName": "Smartphone",
+          "ProductNumber": "116",
+          "ProductType": "Product",
+          "ProductFamily": "Electronics",
+          "SKU": "16",
+          "Onhand": "70",
+          "CurrentCost": "500",
+          "CurrentPrice": "399.99"
+        },
+        {
+          "ProductID": "PRO17",
+          "ProductName": "Tablet",
+          "ProductNumber": "117",
+          "ProductType": "Product",
+          "ProductFamily": "Electronics",
+          "SKU": "17",
+          "Onhand": "60",
+          "CurrentCost": "300",
+          "CurrentPrice": "249.99"
+        },
+        {
+          "ProductID": "PRO18",
+          "ProductName": "Smartwatch",
+          "ProductNumber": "118",
+          "ProductType": "Wearable",
+          "ProductFamily": "Electronics",
+          "SKU": "18",
+          "Onhand": "90",
+          "CurrentCost": "200",
+          "CurrentPrice": "149.99"
+        },
+        {
+          "ProductID": "PRO19",
+          "ProductName": "Earbuds",
+          "ProductNumber": "119",
+          "ProductType": "Accessory",
+          "ProductFamily": "Audio",
+          "SKU": "19",
+          "Onhand": "130",
+          "CurrentCost": "50",
+          "CurrentPrice": "29.99"
+        },
+        {
+          "ProductID": "PRO20",
+          "ProductName": "Headphones",
+          "ProductNumber": "120",
+          "ProductType": "Accessory",
+          "ProductFamily": "Audio",
+          "SKU": "20",
+          "Onhand": "110",
+          "CurrentCost": "100",
+          "CurrentPrice": "79.99"
+        }
+      ],
+      "totalRecords": 1
+    }
+  },
+
+  "inventory_getlookupdatabyid": {
+    "result": {
+      "data": {
+        "lookupentityid": "5cdc0f7a-0670-45a8-b87e-3b131390931c",
+        "lookupvalues": [
+          {
+            "islookup": true,
+            "masterid": "12AAF129-4402-4545-A8BF-B6BD67B8D00B",
+            "mastervalues": "[{\"optionid\":\"7000\",\"optionvalue\":\"Project Type\"},{\"optionid\":\"7001\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7002\",\"optionvalue\":\"Status\"},{\"optionid\":\"7003\",\"optionvalue\":\"Plan Year\"},{\"optionid\":\"7004\",\"optionvalue\":\"Plan Month\"},{\"optionid\":\"7005\",\"optionvalue\":\"Plan Week\"},{\"optionid\":\"7006\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7006\",\"optionvalue\":\"Type\"},{\"optionid\":\"7007\",\"optionvalue\":\"Family\"},{\"optionid\":\"7008\",\"optionvalue\":\"PlanQuarter\"},{\"optionid\":\"7009\",\"optionvalue\":\"DeliverableType\"},{\"optionid\":\"7010\",\"optionvalue\":\"Project Top\"},{\"optionid\":\"7011\",\"optionvalue\":\"Due Week\"},{\"optionid\":\"7012\",\"optionvalue\":\"Work week\"},{\"optionid\":\"7013\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7014\",\"optionvalue\":\"Type\"},{\"optionid\":\"7015\",\"optionvalue\":\"Category\"},{\"optionid\":\"7016\",\"optionvalue\":\"Sub Category\"},{\"optionid\":\"7017\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7018\",\"optionvalue\":\"Status\"},{\"optionid\":\"7019\",\"optionvalue\":\"Plan Year\"},{\"optionid\":\"7020\",\"optionvalue\":\"Plan Month\"},{\"optionid\":\"7021\",\"optionvalue\":\"Plan Week\"},{\"optionid\":\"7022\",\"optionvalue\":\"Work Week\"},{\"optionid\":\"7023\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7024\",\"optionvalue\":\"PlanQuarter\"},{\"optionid\":\"7025\",\"optionvalue\":\"Deliverable Type\"},{\"optionid\":\"7026\",\"optionvalue\":\"State\"},{\"optionid\":\"7027\",\"optionvalue\":\"Size\"},{\"optionid\":\"7028\",\"optionvalue\":\"RStartweek\"},{\"optionid\":\"7029\",\"optionvalue\":\"REndweek\"},{\"optionid\":\"7030\",\"optionvalue\":\"RFeedback\"},{\"optionid\":\"7037\",\"optionvalue\":\"Followup Type\"},{\"optionid\":\"7038\",\"optionvalue\":\"plan Source\"},{\"optionid\":\"7039\",\"optionvalue\":\"Functional Area\"},{\"optionid\":\"7040\",\"optionvalue\":\"Effort\"},{\"optionid\":\"7041\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7042\",\"optionvalue\":\"Time Criticality\"},{\"optionid\":\"7043\",\"optionvalue\":\"WorkFlow Status\"},{\"optionid\":\"7044\",\"optionvalue\":\"category\"},{\"optionid\":\"7045\",\"optionvalue\":\"session\"},{\"optionid\":\"7031\",\"optionvalue\":\"Sub Category\"},{\"optionid\":\"7032\",\"optionvalue\":\"Entity Type\"},{\"optionid\":\"7033\",\"optionvalue\":\"Category\"},{\"optionid\":\"7034\",\"optionvalue\":\"Column Type\"},{\"optionid\":\"7036\",\"optionvalue\":\"Lookup\\/Option\"},{\"optionid\":\"7035\",\"optionvalue\":\"Field Type\"},{\"optionid\":\"8002\",\"optionvalue\":\"TimeLine\"},{\"optionid\":\"8003\",\"optionvalue\":\"ReasonCode\"},{\"optionid\":\"8004\",\"optionvalue\":\"PlanTimeLine\"},{\"optionid\":\"351000001\",\"optionvalue\":\"PlanTimeline\"},{\"optionid\":\"7910\",\"optionvalue\":\"Reason Code\"},{\"optionid\":\"8004\",\"optionvalue\":\"FollowupStatus\"},{\"optionid\":\"8005\",\"optionvalue\":\"ImportStatus\"},{\"optionid\":\"8006\",\"optionvalue\":\"TagColor\"},{\"optionid\":\"11001\",\"optionvalue\":\"LeadStatusCode\"},{\"optionid\":\"201\",\"optionvalue\":\"CustomerSizeCode\"},{\"optionid\":\"202\",\"optionvalue\":\"CustomerTypeCode\"},{\"optionid\":\"203\",\"optionvalue\":\"PreferredContactMethodCode\"},{\"optionid\":\"204\",\"optionvalue\":\"LeadSourceCode\"},{\"optionid\":\"205\",\"optionvalue\":\"PaymentTermsCode\"},{\"optionid\":\"213\",\"optionvalue\":\"Status 1\"},{\"optionid\":\"224\",\"optionvalue\":\"Preferred Appointment Day Code\"},{\"optionid\":\"225\",\"optionvalue\":\"PreferredAppointmentTimeCode\"},{\"optionid\":\"301\",\"optionvalue\":\"Account Category Code\"},{\"optionid\":\"305\",\"optionvalue\":\"Account Rating Code\"},{\"optionid\":\"306\",\"optionvalue\":\"Industry Code\"},{\"optionid\":\"308\",\"optionvalue\":\"Account Classification Code\"},{\"optionid\":\"309\",\"optionvalue\":\"Business Type Code\"},{\"optionid\":\"2001\",\"optionvalue\":\"Process Stage\"},{\"optionid\":\"215\",\"optionvalue\":\"Address1 Address TypeCode\"},{\"optionid\":\"231\",\"optionvalue\":\"Lead Quality Code\"},{\"optionid\":\"214\",\"optionvalue\":\"Status Code\"},{\"optionid\":\"217\",\"optionvalue\":\"Address1 Shipping Method Code\"},{\"optionid\":\"416\",\"optionvalue\":\"Rating\"},{\"optionid\":\"417\",\"optionvalue\":\"Lead Score\"},{\"optionid\":\"422\",\"optionvalue\":\"Preferred Service\"},{\"optionid\":\"423\",\"optionvalue\":\"Department\"},{\"optionid\":\"424\",\"optionvalue\":\"Products\"},{\"optionid\":\"9000\",\"optionvalue\":\"Task Type\"},{\"optionid\":\"9001\",\"optionvalue\":\"Task Status\"},{\"optionid\":\"9002\",\"optionvalue\":\"Task priority\"},{\"optionid\":\"9005\",\"optionvalue\":\"Outcome\"},{\"optionid\":\"9006\",\"optionvalue\":\"EmailStatus\"},{\"optionid\":\"9007\",\"optionvalue\":\"RelatedInstanceStatus\"},{\"optionid\":\"9008\",\"optionvalue\":\"StepRelatedto\"},{\"optionid\":\"9009\",\"optionvalue\":\"Timezone\"},{\"optionid\":\"9010\",\"optionvalue\":\"Operator\"},{\"optionid\":\"9007\",\"optionvalue\":\"RelatedInstanceStatus\"},{\"optionid\":\"9008\",\"optionvalue\":\"StepRelatedto\"},{\"optionid\":\"9009\",\"optionvalue\":\"Timezone\"},{\"optionid\":\"9010\",\"optionvalue\":\"Operator\"},{\"optionid\":\"7040\",\"optionvalue\":\"Workitem Type\"},{\"optionid\":\"351000000\",\"optionvalue\":\"Chunk\"},{\"optionid\":\"4000\",\"optionvalue\":\"Progress Status\"},{\"optionid\":\"8000\",\"optionvalue\":\"WorkDay\"},{\"optionid\":\"8001\",\"optionvalue\":\"WorkWeek\"},{\"optionid\":\"8007\",\"optionvalue\":\"Relationshiptype\"},{\"optionid\":\"237\",\"optionvalue\":\"Sales Stage\"},{\"optionid\":\"401\",\"optionvalue\":\"Budget Status\"},{\"optionid\":\"404\",\"optionvalue\":\"Opportunity Rating Code\"},{\"optionid\":\"9003\",\"optionvalue\":\"Duration\"},{\"optionid\":\"9004\",\"optionvalue\":\"RelatedTo\"},{\"optionid\":\"9020\",\"optionvalue\":\"Sequence Status\"},{\"optionid\":\"414\",\"optionvalue\":\"State Code\"},{\"optionid\":\"415\",\"optionvalue\":\"Account Status\"},{\"optionid\":\"418\",\"optionvalue\":\"Affirmation\"},{\"optionid\":\"419\",\"optionvalue\":\"Annual Revenue\"},{\"optionid\":\"420\",\"optionvalue\":\"Number of Employees\"},{\"optionid\":\"421\",\"optionvalue\":\"Transaction Currency\"},{\"optionid\":\"8009\",\"optionvalue\":\"Call Outcome\"},{\"optionid\":\"8010\",\"optionvalue\":\"Direction\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7001",
+            "mastervalues": "[{\"optionid\":\"31\",\"optionvalue\":\"Immediate\"},{\"optionid\":\"32\",\"optionvalue\":\"Important\"},{\"optionid\":\"33\",\"optionvalue\":\"A\"},{\"optionid\":\"34\",\"optionvalue\":\"B\"},{\"optionid\":\"35\",\"optionvalue\":\"C\"},{\"optionid\":\"36\",\"optionvalue\":\"D\"},{\"optionid\":\"37\",\"optionvalue\":\"X\"},{\"optionid\":\"38\",\"optionvalue\":\"Urgent\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7032",
+            "mastervalues": "[{\"optionid\":\"591\",\"optionvalue\":\"Core\"},{\"optionid\":\"592\",\"optionvalue\":\"Associated\"},{\"optionid\":\"593\",\"optionvalue\":\"Functional\"},{\"optionid\":\"594\",\"optionvalue\":\"System\"},{\"optionid\":\"595\",\"optionvalue\":\"text\"},{\"optionid\":\"596\",\"optionvalue\":\"Custom\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7033",
+            "mastervalues": "[{\"optionid\":\"589\",\"optionvalue\":\"Core\"},{\"optionid\":\"590\",\"optionvalue\":\"OpsAnalytics\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7031",
+            "mastervalues": "[{\"optionid\":\"585\",\"optionvalue\":\"Core\"},{\"optionid\":\"586\",\"optionvalue\":\"Business\"},{\"optionid\":\"587\",\"optionvalue\":\"Performance\"},{\"optionid\":\"588\",\"optionvalue\":\"DataBase\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7034",
+            "mastervalues": "[{\"optionid\":\"600\",\"optionvalue\":\"Uniqueidentifier\"},{\"optionid\":\"601\",\"optionvalue\":\"bit\"},{\"optionid\":\"607\",\"optionvalue\":\"date\"},{\"optionid\":\"597\",\"optionvalue\":\"datetime\"},{\"optionid\":\"598\",\"optionvalue\":\"text\"},{\"optionid\":\"599\",\"optionvalue\":\"numeric\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7035",
+            "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"textbox\"},{\"optionid\":\"603\",\"optionvalue\":\"Multiselect\"},{\"optionid\":\"604\",\"optionvalue\":\"Dropdown\"},{\"optionid\":\"605\",\"optionvalue\":\"Date Picker\"},{\"optionid\":\"606\",\"optionvalue\":\"Radio button\"},{\"optionid\":\"608\",\"optionvalue\":\"Checkbox\"},{\"optionid\":\"19000510622\",\"optionvalue\":\"Text area\"},{\"optionid\":\"19000510614\",\"optionvalue\":\"Textbox_time\"},{\"optionid\":\"19000510668\",\"optionvalue\":\"Tag\"},{\"optionid\":\"19000510605\",\"optionvalue\":\"datepicker\"},{\"optionid\":\"19000510606\",\"optionvalue\":\"weekfilter\"},{\"optionid\":\"19000510664\",\"optionvalue\":\"Progressbar\"},{\"optionid\":\"19000510907\",\"optionvalue\":\"Link\"},{\"optionid\":\"19000510927\",\"optionvalue\":\"addonbutton\"},{\"optionid\":\"19000510913\",\"optionvalue\":\"Form Groups\"},{\"optionid\":\"19000510914\",\"optionvalue\":\"Number\"},{\"optionid\":\"19000510875\",\"optionvalue\":\"Workflow\"},{\"optionid\":\"19000510876\",\"optionvalue\":\"Time\"},{\"optionid\":\"19000510908\",\"optionvalue\":\"onclickloadmultiselect\"},{\"optionid\":\"19000510909\",\"optionvalue\":\"onclickloaddropdown\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "000100",
+            "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"Lead\"},{\"optionid\":\"603\",\"optionvalue\":\"Contact\"},{\"optionid\":\"604\",\"optionvalue\":\"Account\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "000101",
+            "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"Jack Peterson\"},{\"optionid\":\"603\",\"optionvalue\":\"John Beck\"},{\"optionid\":\"604\",\"optionvalue\":\"Mac Hans\"},{\"optionid\":\"605\",\"optionvalue\":\"Michael William\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "000102",
+            "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"Active\"},{\"optionid\":\"603\",\"optionvalue\":\"Inactive\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "5CDC0F7A-0670-45A8-B87E-3B131390931C",
+            "mastervalues": "[{\"optionid\":\"1A3D1758-F4C1-47E0-85A9-D36078F878F4\",\"optionvalue\":\"Contact\"},{\"optionid\":\"E66E5177-DFD2-48A5-BBDE-C8891C37F943\",\"optionvalue\":\"User\"},{\"optionid\":\"5EEEC781-9DA2-4214-A581-D1D81046ABE7\",\"optionvalue\":\"Lead\"},{\"optionid\":\"E00EE1B6-9D36-412D-839D-6AF9DD3358C1\",\"optionvalue\":\"Opportunity\"},{\"optionid\":\"5CDC0F7A-0670-45A8-B87E-3B131390931C\",\"optionvalue\":\"Entities\"},{\"optionid\":\"70C75211-155C-45DC-B155-002DBB5CCE91\",\"optionvalue\":\"Attributes\"},{\"optionid\":\"12AAF129-4402-4545-A8BF-B6BD67B8D00B\",\"optionvalue\":\"Option Set\"},{\"optionid\":\"BAB7C355-6476-4B3F-8E65-76763D41C196\",\"optionvalue\":\"Call\"},{\"optionid\":\"7CBE78CB-AD34-4586-8CFE-C47F13C27FE6\",\"optionvalue\":\"Notes\"},{\"optionid\":\"FEF5C2D1-AB1A-443E-A8C5-3A289B514E70\",\"optionvalue\":\"Task\"},{\"optionid\":\"EE000C0A-89C0-4811-8D26-4E1633121C91\",\"optionvalue\":\"Meeting\"},{\"optionid\":\"ED48DF57-F563-4D7D-97E3-3A4E60EB6441\",\"optionvalue\":\"ImportTemplate\"},{\"optionid\":\"6785FF3A-C8F9-4848-ADB0-E22F6F7B305F\",\"optionvalue\":\"ImportData\"},{\"optionid\":\"13C63A2D-78A6-4D92-8F6B-53F509400E4E\",\"optionvalue\":\"ImportDataVersion\"},{\"optionid\":\"4BC89935-537A-4643-9CBC-D76568FF61B8\",\"optionvalue\":\"Email\"},{\"optionid\":\"18A0DE1A-86BC-4733-B4DE-129CC6C360EF\",\"optionvalue\":\"Tag\"},{\"optionid\":\"D64FB49A-56B4-4B98-AAD6-C1F0C8FA27F0\",\"optionvalue\":\"ARC_EmailTemplateMaster\"},{\"optionid\":\"B9DA0C5A-3DE8-4D68-9A60-67A28EA89E8F\",\"optionvalue\":\"Options\"},{\"optionid\":\"A20EBE31-65C2-4F74-98A3-6D3ADBF77FE7\",\"optionvalue\":\"Sequence\"},{\"optionid\":\"22DE8E7F-D610-4B06-86D6-F9E1988DE8FC\",\"optionvalue\":\"Campaign\"},{\"optionid\":\"2045F2BB-9C55-4399-82DC-C90F1F5514F3\",\"optionvalue\":\"ARC_EmailTemplate_Attachments\"},{\"optionid\":\"BC082DF0-857D-4B63-B0A4-69D33E303961\",\"optionvalue\":\"ARC_Email_Transactions\"},{\"optionid\":\"09D03B62-16AC-48D2-9EF4-42EC8136A217\",\"optionvalue\":\"ARC_Email_Attachments\"},{\"optionid\":\"7E6694D1-8477-4E8A-A19F-477156E832FF\",\"optionvalue\":\"TagGroup\"},{\"optionid\":\"0033280D-4FF4-4F57-8029-E61A1606D3C2\",\"optionvalue\":\"TestEntityNov\"},{\"optionid\":\"A368800B-89CA-4ACB-84F9-36C2D2135D0F\",\"optionvalue\":\"TestEntity\"},{\"optionid\":\"4492D9C0-F91A-4F9A-9476-56AE62C171BD\",\"optionvalue\":\"Account\"},{\"optionid\":\"2F4A69F6-91FC-437B-9ACF-E3B0D11E1193\",\"optionvalue\":\"Test_Merchant\"},{\"optionid\":\"FC2B02BC-5D39-43F5-B758-9E64BDD887F6\",\"optionvalue\":\"Arc_WorkFlow\"},{\"optionid\":\"27D05E79-E67B-41BE-8E8D-684268430F48\",\"optionvalue\":\"WorkFlow\"},{\"optionid\":\"B347784C-2C93-4D3E-8C2F-F9C8BDFA5755\",\"optionvalue\":\"WorkFlowStages\"},{\"optionid\":\"91BC1850-B70A-4E9B-A65D-B9919FBA437C\",\"optionvalue\":\"WorkFlowStatus\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "001",
+            "mastervalues": "[{\"optionid\":\"1A3D1758-F4C1-47E0-85A9-D36078F878F4\",\"optionvalue\":\"Low\"},{\"optionid\":\"E66E5177-DFD2-48A5-BBDE-C8891C37F943\",\"optionvalue\":\"High\"},{\"optionid\":\"E66E5177-DFD2-48A5-BBDE-C8891C37dsdF943\",\"optionvalue\":\"Medium\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "002",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Open\"},{\"optionid\":\"002\",\"optionvalue\":\"Inprogress\"},{\"optionid\":\"003\",\"optionvalue\":\"Waiting for Approval\"},{\"optionid\":\"004\",\"optionvalue\":\"New\"},{\"optionid\":\"005\",\"optionvalue\":\"Resolved\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "003",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Form\"},{\"optionid\":\"002\",\"optionvalue\":\"Email\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "004",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Emily Johnson\"},{\"optionid\":\"002\",\"optionvalue\":\"Michael Smith\"},{\"optionid\":\"003\",\"optionvalue\":\"Jessica Williams\"},{\"optionid\":\"004\",\"optionvalue\":\"David Brown\"},{\"optionid\":\"005\",\"optionvalue\":\"David Brown\"},{\"optionid\":\"005\",\"optionvalue\":\"Joshua Miller\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "005",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Contact\"},{\"optionid\":\"002\",\"optionvalue\":\"Account\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "006",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Contact\"},{\"optionid\":\"002\",\"optionvalue\":\"Account\"},{\"optionid\":\"003\",\"optionvalue\":\"Opportunity\"},{\"optionid\":\"004\",\"optionvalue\":\"Tickets\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "007",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"BMobile\"},{\"optionid\":\"002\",\"optionvalue\":\"CMS\"},{\"optionid\":\"003\",\"optionvalue\":\"ISC\"},{\"optionid\":\"004\",\"optionvalue\":\"STS\"},{\"optionid\":\"005\",\"optionvalue\":\"VTS\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "008",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Admin\"},{\"optionid\":\"002\",\"optionvalue\":\"Sales\"},{\"optionid\":\"003\",\"optionvalue\":\"CEO\"},{\"optionid\":\"004\",\"optionvalue\":\"Development\"},{\"optionid\":\"005\",\"optionvalue\":\"Product Analyst\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "009",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Request\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "010",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Approval\"}]",
+            "groupvalue": {}
+          }
+        ]
+      },
+      "messages": [],
+      "succeeded": true
+    }
+  },
+  "inventory_getlistconfigbyid": {
+    "result": {
+      "list": [
+        {
+          "id": "8202cff6-0a0d-47af-9516-eace2b886c96",
+          "entityid": "5cdc0f7a-0670-45a8-b87e-3b131390931c",
+          "entityname": "Entities",
+          "name": "Entity",
+          "header": {
+            "name": "Entities"
+          },
+          "type": "List",
+          "data": {
+            "dataset": [
+              {
+                "datasetid": "e463d6b2-80d7-4288-b603-9386c1d740f01",
+                "title": "All Productlist",
+                "isdefault": true,
+                "isselected": true,
+                "owner": "system",
+                "seqno": 2
+              }
+            ],
+            "config": {
+              "listfields": [
+                {
+                  "id": "productlist00",
+                  "name": "Product ID",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "ProductID",
+                  "inlineeditable": null,
+                  "istitle": true,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist02",
+                  "name": "Product Name",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "ProductName",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist04",
+                  "name": "Product Type",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "ProductType",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist05",
+                  "name": "In Stock",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "InStock",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist06",
+                  "name": "Ordered",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": true,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "Ordered",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist07",
+                  "name": "Upcoming Order",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "UpcomingOrder",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist08",
+                  "name": "Restock Date",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "CreatedOn",
+                  "visible": true,
+                  "displayapiname": "RestockDate",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist09",
+                  "name": "Inventory Value",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": true,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "InventoryValue",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                }
+              ],
+              "filterfields": [
+                {
+                  "id": "001",
+                  "name": "Product ID",
+                  "lablekey": "entity-type-lbl",
+                  "seqno": 5,
+                  "filtercontroltype": "textbox",
+                  "isquickfilter": true,
+                  "api_name": "EntityType",
+                  "islookup": true,
+                  "masterid": "",
+                  "apioutputskey": "optionid",
+                  "apioutputvalue": "optionvalue"
+                },
+                {
+                  "id": "003",
+                  "name": "Product Name",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "005",
+                  "name": "Product Type",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "006",
+                  "name": "In Stock",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": true,
+                  "api_name": "InStock",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "007",
+                  "name": "Ordered",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "datepicker",
+                  "isquickfilter": true,
+                  "api_name": "Ordered",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "008",
+                  "name": "Upcoming Order",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "datepicker",
+                  "isquickfilter": true,
+                  "api_name": "UpcomingOrder",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                }
+              ],
+              "groupbyfields": [
+                {
+                  "id": "081880af-a45b-40ab-bfc1-c4ea60e7ce63",
+                  "name": "Product Name",
+                  "labelkey": "contact_workflowstatus_lbl",
+                  "seqno": null,
+                  "api_name": "Workflow Status",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "91BC1850-B70A-4E9B-A65D-B9919FBA437C"
+                },
+                {
+                  "id": "4ea16646-f64b-4749-b61d-8fd9593cf591",
+                  "name": "Product Number",
+                  "labelkey": "contact_workflowstage_lbl",
+                  "seqno": null,
+                  "api_name": "Workflow Stage",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "B347784C-2C93-4D3E-8C2F-F9C8BDFA5755"
+                },
+                {
+                  "id": "61376780-b621-46cd-97ad-49e415e33736",
+                  "name": "Product Type",
+                  "labelkey": "lbl-Account-CustomerTypeCode",
+                  "seqno": null,
+                  "api_name": "CustomerTypeCode",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "202"
+                },
+                {
+                  "id": "8d6a7e26-81ad-4299-b21f-e601a8754afa",
+                  "name": "Product Family",
+                  "labelkey": "lbl-Account-CustomerSizeCode",
+                  "seqno": null,
+                  "api_name": "CustomerSizeCode",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "201"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "inventory_getdatasetfieldinfobyid": {
+    "result": {
+      "id": "e463d6b2-80d7-4288-b603-9386c1d740f0",
+      "name": "All Workflows",
+      "owner": null,
+      "isdefault": true,
+      "last_accessed_time": null,
+      "filters": [
+        {
+          "id": "001",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Product ID",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        },
+        {
+          "id": "003",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Product Name",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        },
+        {
+          "id": "004",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Product Number",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        },
+        {
+          "id": "005",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Product Type",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        },
+        {
+          "id": "006",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Product Family",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        }
+      ],
+      "groupby": [],
+      "columns": [
+        {
+          "id": "productlist00",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "ProductID",
+          "columnwidth": 150
+        },
+        {
+          "id": "productlist02",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "ProductName",
+          "columnwidth": 150
+        },
+        {
+          "id": "productlist03",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "ProductNumber",
+          "columnwidth": 150
+        },
+        {
+          "id": "productlist04",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "ProductType",
+          "columnwidth": 150
+        },
+        {
+          "id": "productlist05",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "ProductFamily",
+          "columnwidth": 150
+        },
+        {
+          "id": "productlist06",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "SKU",
+          "columnwidth": 150
+        },
+
+        {
+          "id": "productlist07",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "CurrentCost",
+          "columnwidth": 150
+        },
+        {
+          "id": "productlist08",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "CurrentPrice",
+          "columnwidth": 150
+        },
+        {
+          "id": "productlist09",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "Onhand",
+          "columnwidth": 150
+        }
+      ]
+    }
+  },
+  "inventory_listdata": {
+    "result": {
+      "data": [
+        {
+          "ProductID": "PRO1",
+          "ProductName": "Laptop",
+          "ProductType": "Product",
+          "InStock": "120",
+          "SKU": "1",
+          "Ordered": "80",
+          "UpcomingOrder": "150",
+          "RestockDate": "23/12/2024",
+          "InventoryValue": "28000"
+        },
+        {
+          "ProductID": "PRO2",
+          "ProductName": "Mouse",
+          "ProductType": "Accessory",
+          "InStock": "200",
+          "SKU": "2",
+          "Ordered": "90",
+          "UpcomingOrder": "300",
+          "RestockDate": "15/12/2024",
+          "InventoryValue": "5000"
+        },
+        {
+          "ProductID": "PRO3",
+          "ProductName": "Keyboard",
+          "ProductType": "Accessory",
+          "InStock": "150",
+          "SKU": "3",
+          "Ordered": "60",
+          "UpcomingOrder": "250",
+          "RestockDate": "10/12/2024",
+          "InventoryValue": "7500"
+        },
+        {
+          "ProductID": "PRO4",
+          "ProductName": "Monitor",
+          "ProductType": "Product",
+          "InStock": "75",
+          "SKU": "4",
+          "Ordered": "40",
+          "UpcomingOrder": "100",
+          "RestockDate": "05/01/2025",
+          "InventoryValue": "20000"
+        },
+        {
+          "ProductID": "PRO5",
+          "ProductName": "Printer",
+          "ProductType": "Product",
+          "InStock": "50",
+          "SKU": "5",
+          "Ordered": "25",
+          "UpcomingOrder": "75",
+          "RestockDate": "20/01/2025",
+          "InventoryValue": "15000"
+        },
+        {
+          "ProductID": "PRO6",
+          "ProductName": "Webcam",
+          "ProductType": "Accessory",
+          "InStock": "180",
+          "SKU": "6",
+          "Ordered": "100",
+          "UpcomingOrder": "200",
+          "RestockDate": "30/12/2024",
+          "InventoryValue": "9000"
+        },
+        {
+          "ProductID": "PRO7",
+          "ProductName": "External Hard Drive",
+          "ProductType": "Storage",
+          "InStock": "100",
+          "SKU": "7",
+          "Ordered": "55",
+          "UpcomingOrder": "120",
+          "RestockDate": "18/12/2024",
+          "InventoryValue": "25000"
+        },
+        {
+          "ProductID": "PRO8",
+          "ProductName": "USB Flash Drive",
+          "ProductType": "Storage",
+          "InStock": "500",
+          "SKU": "8",
+          "Ordered": "250",
+          "UpcomingOrder": "600",
+          "RestockDate": "12/12/2024",
+          "InventoryValue": "8000"
+        },
+        {
+          "ProductID": "PRO9",
+          "ProductName": "Router",
+          "ProductType": "Networking",
+          "InStock": "90",
+          "SKU": "9",
+          "Ordered": "45",
+          "UpcomingOrder": "80",
+          "RestockDate": "28/12/2024",
+          "InventoryValue": "18000"
+        },
+        {
+          "ProductID": "PRO10",
+          "ProductName": "Graphics Card",
+          "ProductType": "Component",
+          "InStock": "40",
+          "SKU": "10",
+          "Ordered": "30",
+          "UpcomingOrder": "60",
+          "RestockDate": "10/01/2025",
+          "InventoryValue": "60000"
+        },
+        {
+          "ProductID": "PRO11",
+          "ProductName": "RAM",
+          "ProductType": "Component",
+          "InStock": "70",
+          "SKU": "11",
+          "Ordered": "35",
+          "UpcomingOrder": "90",
+          "RestockDate": "05/12/2024",
+          "InventoryValue": "15000"
+        },
+        {
+          "ProductID": "PRO12",
+          "ProductName": "Motherboard",
+          "ProductType": "Component",
+          "InStock": "50",
+          "SKU": "12",
+          "Ordered": "20",
+          "UpcomingOrder": "60",
+          "RestockDate": "08/01/2025",
+          "InventoryValue": "40000"
+        },
+        {
+          "ProductID": "PRO13",
+          "ProductName": "Power Supply",
+          "ProductType": "Component",
+          "InStock": "55",
+          "SKU": "13",
+          "Ordered": "25",
+          "UpcomingOrder": "70",
+          "RestockDate": "02/01/2025",
+          "InventoryValue": "16000"
+        },
+        {
+          "ProductID": "PRO14",
+          "ProductName": "Gaming Chair",
+          "ProductType": "Furniture",
+          "InStock": "30",
+          "SKU": "14",
+          "Ordered": "10",
+          "UpcomingOrder": "40",
+          "RestockDate": "15/01/2025",
+          "InventoryValue": "18000"
+        },
+        {
+          "ProductID": "PRO15",
+          "ProductName": "Desk",
+          "ProductType": "Furniture",
+          "InStock": "25",
+          "SKU": "15",
+          "Ordered": "5",
+          "UpcomingOrder": "30",
+          "RestockDate": "22/01/2025",
+          "InventoryValue": "25000"
+        },
+        {
+          "ProductID": "PRO16",
+          "ProductName": "Smartphone",
+          "ProductType": "Product",
+          "InStock": "85",
+          "SKU": "16",
+          "Ordered": "50",
+          "UpcomingOrder": "120",
+          "RestockDate": "10/12/2024",
+          "InventoryValue": "70000"
+        },
+        {
+          "ProductID": "PRO17",
+          "ProductName": "Tablet",
+          "ProductType": "Product",
+          "InStock": "65",
+          "SKU": "17",
+          "Ordered": "30",
+          "UpcomingOrder": "90",
+          "RestockDate": "18/01/2025",
+          "InventoryValue": "35000"
+        },
+        {
+          "ProductID": "PRO18",
+          "ProductName": "Smartwatch",
+          "ProductType": "Wearable",
+          "InStock": "100",
+          "SKU": "18",
+          "Ordered": "60",
+          "UpcomingOrder": "150",
+          "RestockDate": "30/12/2024",
+          "InventoryValue": "20000"
+        },
+        {
+          "ProductID": "PRO19",
+          "ProductName": "Earbuds",
+          "ProductType": "Accessory",
+          "InStock": "300",
+          "SKU": "19",
+          "Ordered": "150",
+          "UpcomingOrder": "400",
+          "RestockDate": "05/12/2024",
+          "InventoryValue": "9000"
+        },
+        {
+          "ProductID": "PRO20",
+          "ProductName": "Headphones",
+          "ProductType": "Accessory",
+          "InStock": "250",
+          "SKU": "20",
+          "Ordered": "100",
+          "UpcomingOrder": "300",
+          "RestockDate": "12/12/2024",
+          "InventoryValue": "15000"
+        }
+      ],
+      "totalRecords": 1
+    }
+  },
+
+  "paymentlist_getlookupdatabyid": {
+    "result": {
+      "data": {
+        "lookupentityid": "5cdc0f7a-0670-45a8-b87e-3b131390931c",
+        "lookupvalues": [
+          {
+            "islookup": true,
+            "masterid": "12AAF129-4402-4545-A8BF-B6BD67B8D00B",
+            "mastervalues": "[{\"optionid\":\"7000\",\"optionvalue\":\"Project Type\"},{\"optionid\":\"7001\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7002\",\"optionvalue\":\"Status\"},{\"optionid\":\"7003\",\"optionvalue\":\"Plan Year\"},{\"optionid\":\"7004\",\"optionvalue\":\"Plan Month\"},{\"optionid\":\"7005\",\"optionvalue\":\"Plan Week\"},{\"optionid\":\"7006\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7006\",\"optionvalue\":\"Type\"},{\"optionid\":\"7007\",\"optionvalue\":\"Family\"},{\"optionid\":\"7008\",\"optionvalue\":\"PlanQuarter\"},{\"optionid\":\"7009\",\"optionvalue\":\"DeliverableType\"},{\"optionid\":\"7010\",\"optionvalue\":\"Project Top\"},{\"optionid\":\"7011\",\"optionvalue\":\"Due Week\"},{\"optionid\":\"7012\",\"optionvalue\":\"Work week\"},{\"optionid\":\"7013\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7014\",\"optionvalue\":\"Type\"},{\"optionid\":\"7015\",\"optionvalue\":\"Category\"},{\"optionid\":\"7016\",\"optionvalue\":\"Sub Category\"},{\"optionid\":\"7017\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7018\",\"optionvalue\":\"Status\"},{\"optionid\":\"7019\",\"optionvalue\":\"Plan Year\"},{\"optionid\":\"7020\",\"optionvalue\":\"Plan Month\"},{\"optionid\":\"7021\",\"optionvalue\":\"Plan Week\"},{\"optionid\":\"7022\",\"optionvalue\":\"Work Week\"},{\"optionid\":\"7023\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7024\",\"optionvalue\":\"PlanQuarter\"},{\"optionid\":\"7025\",\"optionvalue\":\"Deliverable Type\"},{\"optionid\":\"7026\",\"optionvalue\":\"State\"},{\"optionid\":\"7027\",\"optionvalue\":\"Size\"},{\"optionid\":\"7028\",\"optionvalue\":\"RStartweek\"},{\"optionid\":\"7029\",\"optionvalue\":\"REndweek\"},{\"optionid\":\"7030\",\"optionvalue\":\"RFeedback\"},{\"optionid\":\"7037\",\"optionvalue\":\"Followup Type\"},{\"optionid\":\"7038\",\"optionvalue\":\"plan Source\"},{\"optionid\":\"7039\",\"optionvalue\":\"Functional Area\"},{\"optionid\":\"7040\",\"optionvalue\":\"Effort\"},{\"optionid\":\"7041\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7042\",\"optionvalue\":\"Time Criticality\"},{\"optionid\":\"7043\",\"optionvalue\":\"WorkFlow Status\"},{\"optionid\":\"7044\",\"optionvalue\":\"category\"},{\"optionid\":\"7045\",\"optionvalue\":\"session\"},{\"optionid\":\"7031\",\"optionvalue\":\"Sub Category\"},{\"optionid\":\"7032\",\"optionvalue\":\"Entity Type\"},{\"optionid\":\"7033\",\"optionvalue\":\"Category\"},{\"optionid\":\"7034\",\"optionvalue\":\"Column Type\"},{\"optionid\":\"7036\",\"optionvalue\":\"Lookup\\/Option\"},{\"optionid\":\"7035\",\"optionvalue\":\"Field Type\"},{\"optionid\":\"8002\",\"optionvalue\":\"TimeLine\"},{\"optionid\":\"8003\",\"optionvalue\":\"ReasonCode\"},{\"optionid\":\"8004\",\"optionvalue\":\"PlanTimeLine\"},{\"optionid\":\"351000001\",\"optionvalue\":\"PlanTimeline\"},{\"optionid\":\"7910\",\"optionvalue\":\"Reason Code\"},{\"optionid\":\"8004\",\"optionvalue\":\"FollowupStatus\"},{\"optionid\":\"8005\",\"optionvalue\":\"ImportStatus\"},{\"optionid\":\"8006\",\"optionvalue\":\"TagColor\"},{\"optionid\":\"11001\",\"optionvalue\":\"LeadStatusCode\"},{\"optionid\":\"201\",\"optionvalue\":\"CustomerSizeCode\"},{\"optionid\":\"202\",\"optionvalue\":\"CustomerTypeCode\"},{\"optionid\":\"203\",\"optionvalue\":\"PreferredContactMethodCode\"},{\"optionid\":\"204\",\"optionvalue\":\"LeadSourceCode\"},{\"optionid\":\"205\",\"optionvalue\":\"PaymentTermsCode\"},{\"optionid\":\"213\",\"optionvalue\":\"Status 1\"},{\"optionid\":\"224\",\"optionvalue\":\"Preferred Appointment Day Code\"},{\"optionid\":\"225\",\"optionvalue\":\"PreferredAppointmentTimeCode\"},{\"optionid\":\"301\",\"optionvalue\":\"Account Category Code\"},{\"optionid\":\"305\",\"optionvalue\":\"Account Rating Code\"},{\"optionid\":\"306\",\"optionvalue\":\"Industry Code\"},{\"optionid\":\"308\",\"optionvalue\":\"Account Classification Code\"},{\"optionid\":\"309\",\"optionvalue\":\"Business Type Code\"},{\"optionid\":\"2001\",\"optionvalue\":\"Process Stage\"},{\"optionid\":\"215\",\"optionvalue\":\"Address1 Address TypeCode\"},{\"optionid\":\"231\",\"optionvalue\":\"Lead Quality Code\"},{\"optionid\":\"214\",\"optionvalue\":\"Status Code\"},{\"optionid\":\"217\",\"optionvalue\":\"Address1 Shipping Method Code\"},{\"optionid\":\"416\",\"optionvalue\":\"Rating\"},{\"optionid\":\"417\",\"optionvalue\":\"Lead Score\"},{\"optionid\":\"422\",\"optionvalue\":\"Preferred Service\"},{\"optionid\":\"423\",\"optionvalue\":\"Department\"},{\"optionid\":\"424\",\"optionvalue\":\"Products\"},{\"optionid\":\"9000\",\"optionvalue\":\"Task Type\"},{\"optionid\":\"9001\",\"optionvalue\":\"Task Status\"},{\"optionid\":\"9002\",\"optionvalue\":\"Task priority\"},{\"optionid\":\"9005\",\"optionvalue\":\"Outcome\"},{\"optionid\":\"9006\",\"optionvalue\":\"EmailStatus\"},{\"optionid\":\"9007\",\"optionvalue\":\"RelatedInstanceStatus\"},{\"optionid\":\"9008\",\"optionvalue\":\"StepRelatedto\"},{\"optionid\":\"9009\",\"optionvalue\":\"Timezone\"},{\"optionid\":\"9010\",\"optionvalue\":\"Operator\"},{\"optionid\":\"9007\",\"optionvalue\":\"RelatedInstanceStatus\"},{\"optionid\":\"9008\",\"optionvalue\":\"StepRelatedto\"},{\"optionid\":\"9009\",\"optionvalue\":\"Timezone\"},{\"optionid\":\"9010\",\"optionvalue\":\"Operator\"},{\"optionid\":\"7040\",\"optionvalue\":\"Workitem Type\"},{\"optionid\":\"351000000\",\"optionvalue\":\"Chunk\"},{\"optionid\":\"4000\",\"optionvalue\":\"Progress Status\"},{\"optionid\":\"8000\",\"optionvalue\":\"WorkDay\"},{\"optionid\":\"8001\",\"optionvalue\":\"WorkWeek\"},{\"optionid\":\"8007\",\"optionvalue\":\"Relationshiptype\"},{\"optionid\":\"237\",\"optionvalue\":\"Sales Stage\"},{\"optionid\":\"401\",\"optionvalue\":\"Budget Status\"},{\"optionid\":\"404\",\"optionvalue\":\"Opportunity Rating Code\"},{\"optionid\":\"9003\",\"optionvalue\":\"Duration\"},{\"optionid\":\"9004\",\"optionvalue\":\"RelatedTo\"},{\"optionid\":\"9020\",\"optionvalue\":\"Sequence Status\"},{\"optionid\":\"414\",\"optionvalue\":\"State Code\"},{\"optionid\":\"415\",\"optionvalue\":\"Account Status\"},{\"optionid\":\"418\",\"optionvalue\":\"Affirmation\"},{\"optionid\":\"419\",\"optionvalue\":\"Annual Revenue\"},{\"optionid\":\"420\",\"optionvalue\":\"Number of Employees\"},{\"optionid\":\"421\",\"optionvalue\":\"Transaction Currency\"},{\"optionid\":\"8009\",\"optionvalue\":\"Call Outcome\"},{\"optionid\":\"8010\",\"optionvalue\":\"Direction\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7001",
+            "mastervalues": "[{\"optionid\":\"31\",\"optionvalue\":\"Immediate\"},{\"optionid\":\"32\",\"optionvalue\":\"Important\"},{\"optionid\":\"33\",\"optionvalue\":\"A\"},{\"optionid\":\"34\",\"optionvalue\":\"B\"},{\"optionid\":\"35\",\"optionvalue\":\"C\"},{\"optionid\":\"36\",\"optionvalue\":\"D\"},{\"optionid\":\"37\",\"optionvalue\":\"X\"},{\"optionid\":\"38\",\"optionvalue\":\"Urgent\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7032",
+            "mastervalues": "[{\"optionid\":\"591\",\"optionvalue\":\"Core\"},{\"optionid\":\"592\",\"optionvalue\":\"Associated\"},{\"optionid\":\"593\",\"optionvalue\":\"Functional\"},{\"optionid\":\"594\",\"optionvalue\":\"System\"},{\"optionid\":\"595\",\"optionvalue\":\"text\"},{\"optionid\":\"596\",\"optionvalue\":\"Custom\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7033",
+            "mastervalues": "[{\"optionid\":\"589\",\"optionvalue\":\"Core\"},{\"optionid\":\"590\",\"optionvalue\":\"OpsAnalytics\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7031",
+            "mastervalues": "[{\"optionid\":\"585\",\"optionvalue\":\"Core\"},{\"optionid\":\"586\",\"optionvalue\":\"Business\"},{\"optionid\":\"587\",\"optionvalue\":\"Performance\"},{\"optionid\":\"588\",\"optionvalue\":\"DataBase\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7034",
+            "mastervalues": "[{\"optionid\":\"600\",\"optionvalue\":\"Uniqueidentifier\"},{\"optionid\":\"601\",\"optionvalue\":\"bit\"},{\"optionid\":\"607\",\"optionvalue\":\"date\"},{\"optionid\":\"597\",\"optionvalue\":\"datetime\"},{\"optionid\":\"598\",\"optionvalue\":\"text\"},{\"optionid\":\"599\",\"optionvalue\":\"numeric\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "7035",
+            "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"textbox\"},{\"optionid\":\"603\",\"optionvalue\":\"Multiselect\"},{\"optionid\":\"604\",\"optionvalue\":\"Dropdown\"},{\"optionid\":\"605\",\"optionvalue\":\"Date Picker\"},{\"optionid\":\"606\",\"optionvalue\":\"Radio button\"},{\"optionid\":\"608\",\"optionvalue\":\"Checkbox\"},{\"optionid\":\"19000510622\",\"optionvalue\":\"Text area\"},{\"optionid\":\"19000510614\",\"optionvalue\":\"Textbox_time\"},{\"optionid\":\"19000510668\",\"optionvalue\":\"Tag\"},{\"optionid\":\"19000510605\",\"optionvalue\":\"datepicker\"},{\"optionid\":\"19000510606\",\"optionvalue\":\"weekfilter\"},{\"optionid\":\"19000510664\",\"optionvalue\":\"Progressbar\"},{\"optionid\":\"19000510907\",\"optionvalue\":\"Link\"},{\"optionid\":\"19000510927\",\"optionvalue\":\"addonbutton\"},{\"optionid\":\"19000510913\",\"optionvalue\":\"Form Groups\"},{\"optionid\":\"19000510914\",\"optionvalue\":\"Number\"},{\"optionid\":\"19000510875\",\"optionvalue\":\"Workflow\"},{\"optionid\":\"19000510876\",\"optionvalue\":\"Time\"},{\"optionid\":\"19000510908\",\"optionvalue\":\"onclickloadmultiselect\"},{\"optionid\":\"19000510909\",\"optionvalue\":\"onclickloaddropdown\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "000100",
+            "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"Lead\"},{\"optionid\":\"603\",\"optionvalue\":\"Contact\"},{\"optionid\":\"604\",\"optionvalue\":\"Account\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "000101",
+            "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"Jack Peterson\"},{\"optionid\":\"603\",\"optionvalue\":\"John Beck\"},{\"optionid\":\"604\",\"optionvalue\":\"Mac Hans\"},{\"optionid\":\"605\",\"optionvalue\":\"Michael William\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "000102",
+            "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"Active\"},{\"optionid\":\"603\",\"optionvalue\":\"Inactive\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "5CDC0F7A-0670-45A8-B87E-3B131390931C",
+            "mastervalues": "[{\"optionid\":\"1A3D1758-F4C1-47E0-85A9-D36078F878F4\",\"optionvalue\":\"Contact\"},{\"optionid\":\"E66E5177-DFD2-48A5-BBDE-C8891C37F943\",\"optionvalue\":\"User\"},{\"optionid\":\"5EEEC781-9DA2-4214-A581-D1D81046ABE7\",\"optionvalue\":\"Lead\"},{\"optionid\":\"E00EE1B6-9D36-412D-839D-6AF9DD3358C1\",\"optionvalue\":\"Opportunity\"},{\"optionid\":\"5CDC0F7A-0670-45A8-B87E-3B131390931C\",\"optionvalue\":\"Entities\"},{\"optionid\":\"70C75211-155C-45DC-B155-002DBB5CCE91\",\"optionvalue\":\"Attributes\"},{\"optionid\":\"12AAF129-4402-4545-A8BF-B6BD67B8D00B\",\"optionvalue\":\"Option Set\"},{\"optionid\":\"BAB7C355-6476-4B3F-8E65-76763D41C196\",\"optionvalue\":\"Call\"},{\"optionid\":\"7CBE78CB-AD34-4586-8CFE-C47F13C27FE6\",\"optionvalue\":\"Notes\"},{\"optionid\":\"FEF5C2D1-AB1A-443E-A8C5-3A289B514E70\",\"optionvalue\":\"Task\"},{\"optionid\":\"EE000C0A-89C0-4811-8D26-4E1633121C91\",\"optionvalue\":\"Meeting\"},{\"optionid\":\"ED48DF57-F563-4D7D-97E3-3A4E60EB6441\",\"optionvalue\":\"ImportTemplate\"},{\"optionid\":\"6785FF3A-C8F9-4848-ADB0-E22F6F7B305F\",\"optionvalue\":\"ImportData\"},{\"optionid\":\"13C63A2D-78A6-4D92-8F6B-53F509400E4E\",\"optionvalue\":\"ImportDataVersion\"},{\"optionid\":\"4BC89935-537A-4643-9CBC-D76568FF61B8\",\"optionvalue\":\"Email\"},{\"optionid\":\"18A0DE1A-86BC-4733-B4DE-129CC6C360EF\",\"optionvalue\":\"Tag\"},{\"optionid\":\"D64FB49A-56B4-4B98-AAD6-C1F0C8FA27F0\",\"optionvalue\":\"ARC_EmailTemplateMaster\"},{\"optionid\":\"B9DA0C5A-3DE8-4D68-9A60-67A28EA89E8F\",\"optionvalue\":\"Options\"},{\"optionid\":\"A20EBE31-65C2-4F74-98A3-6D3ADBF77FE7\",\"optionvalue\":\"Sequence\"},{\"optionid\":\"22DE8E7F-D610-4B06-86D6-F9E1988DE8FC\",\"optionvalue\":\"Campaign\"},{\"optionid\":\"2045F2BB-9C55-4399-82DC-C90F1F5514F3\",\"optionvalue\":\"ARC_EmailTemplate_Attachments\"},{\"optionid\":\"BC082DF0-857D-4B63-B0A4-69D33E303961\",\"optionvalue\":\"ARC_Email_Transactions\"},{\"optionid\":\"09D03B62-16AC-48D2-9EF4-42EC8136A217\",\"optionvalue\":\"ARC_Email_Attachments\"},{\"optionid\":\"7E6694D1-8477-4E8A-A19F-477156E832FF\",\"optionvalue\":\"TagGroup\"},{\"optionid\":\"0033280D-4FF4-4F57-8029-E61A1606D3C2\",\"optionvalue\":\"TestEntityNov\"},{\"optionid\":\"A368800B-89CA-4ACB-84F9-36C2D2135D0F\",\"optionvalue\":\"TestEntity\"},{\"optionid\":\"4492D9C0-F91A-4F9A-9476-56AE62C171BD\",\"optionvalue\":\"Account\"},{\"optionid\":\"2F4A69F6-91FC-437B-9ACF-E3B0D11E1193\",\"optionvalue\":\"Test_Merchant\"},{\"optionid\":\"FC2B02BC-5D39-43F5-B758-9E64BDD887F6\",\"optionvalue\":\"Arc_WorkFlow\"},{\"optionid\":\"27D05E79-E67B-41BE-8E8D-684268430F48\",\"optionvalue\":\"WorkFlow\"},{\"optionid\":\"B347784C-2C93-4D3E-8C2F-F9C8BDFA5755\",\"optionvalue\":\"WorkFlowStages\"},{\"optionid\":\"91BC1850-B70A-4E9B-A65D-B9919FBA437C\",\"optionvalue\":\"WorkFlowStatus\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "001",
+            "mastervalues": "[{\"optionid\":\"1A3D1758-F4C1-47E0-85A9-D36078F878F4\",\"optionvalue\":\"Low\"},{\"optionid\":\"E66E5177-DFD2-48A5-BBDE-C8891C37F943\",\"optionvalue\":\"High\"},{\"optionid\":\"E66E5177-DFD2-48A5-BBDE-C8891C37dsdF943\",\"optionvalue\":\"Medium\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "002",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Open\"},{\"optionid\":\"002\",\"optionvalue\":\"Inprogress\"},{\"optionid\":\"003\",\"optionvalue\":\"Waiting for Approval\"},{\"optionid\":\"004\",\"optionvalue\":\"New\"},{\"optionid\":\"005\",\"optionvalue\":\"Resolved\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "003",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Form\"},{\"optionid\":\"002\",\"optionvalue\":\"Email\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "004",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Emily Johnson\"},{\"optionid\":\"002\",\"optionvalue\":\"Michael Smith\"},{\"optionid\":\"003\",\"optionvalue\":\"Jessica Williams\"},{\"optionid\":\"004\",\"optionvalue\":\"David Brown\"},{\"optionid\":\"005\",\"optionvalue\":\"David Brown\"},{\"optionid\":\"005\",\"optionvalue\":\"Joshua Miller\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "005",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Contact\"},{\"optionid\":\"002\",\"optionvalue\":\"Account\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "006",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Contact\"},{\"optionid\":\"002\",\"optionvalue\":\"Account\"},{\"optionid\":\"003\",\"optionvalue\":\"Opportunity\"},{\"optionid\":\"004\",\"optionvalue\":\"Tickets\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "007",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"BMobile\"},{\"optionid\":\"002\",\"optionvalue\":\"CMS\"},{\"optionid\":\"003\",\"optionvalue\":\"ISC\"},{\"optionid\":\"004\",\"optionvalue\":\"STS\"},{\"optionid\":\"005\",\"optionvalue\":\"VTS\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "008",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Admin\"},{\"optionid\":\"002\",\"optionvalue\":\"Sales\"},{\"optionid\":\"003\",\"optionvalue\":\"CEO\"},{\"optionid\":\"004\",\"optionvalue\":\"Development\"},{\"optionid\":\"005\",\"optionvalue\":\"Product Analyst\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "009",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Request\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "010",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Approval\"}]",
+            "groupvalue": {}
+          }
+        ]
+      },
+      "messages": [],
+      "succeeded": true
+    }
+  },
+  "paymentlist_getlistconfigbyid": {
+    "result": {
+      "list": [
+        {
+          "id": "8202cff6-0a0d-47af-9516-eace2b886c96",
+          "entityid": "5cdc0f7a-0670-45a8-b87e-3b131390931c",
+          "entityname": "Entities",
+          "name": "Entity",
+          "header": {
+            "name": "Entities"
+          },
+          "type": "List",
+          "data": {
+            "dataset": [
+              {
+                "datasetid": "e463d6b2-80d7-4288-b603-9386c1d740f01",
+                "title": "All Productlist",
+                "isdefault": true,
+                "isselected": true,
+                "owner": "system",
+                "seqno": 2
+              }
+            ],
+            "config": {
+              "listfields": [
+                {
+                  "id": "productlist00",
+                  "name": "Customer Name",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "CustomerName",
+                  "inlineeditable": null,
+                  "istitle": true,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist02",
+                  "name": "Invoice ID",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "InvoiceID",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist03",
+                  "name": "Payment Status",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "PaymentStatus",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist04",
+                  "name": "Payment Method",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "PaymentMethod",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+
+                {
+                  "id": "productlist08",
+                  "name": "Assosiated Contact",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 100,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "AssosiatedContact",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist09",
+                  "name": "Assosiated Oppurtunity",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 100,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "AssosiatedOppurtunity",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+
+                {
+                  "id": "productlist10",
+                  "name": "Payment DueDate",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 100,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "CreatedOn",
+                  "visible": true,
+                  "displayapiname": "PaymentDueDate",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+
+                {
+                  "id": "productlist11",
+                  "name": "Last PaymentDate",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "CreatedOn",
+                  "visible": true,
+                  "displayapiname": "LastPaymentDate",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist05",
+                  "name": "Total Amount",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "TotalAmount",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist06",
+                  "name": "Paid Amount",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": true,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "PaidAmount",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist07",
+                  "name": "Balance Amount",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 120,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": true,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "BalanceAmount",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                }
+              ],
+              "filterfields": [
+                {
+                  "id": "001",
+                  "name": "Customer Name",
+                  "lablekey": "entity-type-lbl",
+                  "seqno": 5,
+                  "filtercontroltype": "textbox",
+                  "isquickfilter": true,
+                  "api_name": "EntityType",
+                  "islookup": true,
+                  "masterid": "",
+                  "apioutputskey": "optionid",
+                  "apioutputvalue": "optionvalue"
+                },
+                {
+                  "id": "003",
+                  "name": "Invoice ID",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "004",
+                  "name": "Payment Status",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "005",
+                  "name": "Payment Method",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "005",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                }
+              ],
+              "groupbyfields": [
+                {
+                  "id": "081880af-a45b-40ab-bfc1-c4ea60e7ce63",
+                  "name": "Customer Name",
+                  "labelkey": "contact_workflowstatus_lbl",
+                  "seqno": null,
+                  "api_name": "Workflow Status",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "91BC1850-B70A-4E9B-A65D-B9919FBA437C"
+                },
+                {
+                  "id": "4ea16646-f64b-4749-b61d-8fd9593cf591",
+                  "name": "Invoice ID",
+                  "labelkey": "contact_workflowstage_lbl",
+                  "seqno": null,
+                  "api_name": "Workflow Stage",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "B347784C-2C93-4D3E-8C2F-F9C8BDFA5755"
+                },
+                {
+                  "id": "61376780-b621-46cd-97ad-49e415e33736",
+                  "name": "Payment Status",
+                  "labelkey": "lbl-Account-CustomerTypeCode",
+                  "seqno": null,
+                  "api_name": "CustomerTypeCode",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "202"
+                },
+                {
+                  "id": "8d6a7e26-81ad-4299-b21f-e601a8754afa",
+                  "name": "Payment Method",
+                  "labelkey": "lbl-Account-CustomerSizeCode",
+                  "seqno": null,
+                  "api_name": "CustomerSizeCode",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "201"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "paymentlist_getdatasetfieldinfobyid": {
+    "result": {
+      "id": "e463d6b2-80d7-4288-b603-9386c1d740f0",
+      "name": "All Workflows",
+      "owner": null,
+      "isdefault": true,
+      "last_accessed_time": null,
+      "filters": [
+        {
+          "id": "001",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Product ID",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        },
+        {
+          "id": "003",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Product Name",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        },
+        {
+          "id": "004",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Product Number",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        },
+        {
+          "id": "005",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Product Type",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        },
+        {
+          "id": "006",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Product Family",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        }
+      ],
+      "groupby": [],
+      "columns": [
+        {
+          "id": "productlist00",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "ProductID",
+          "columnwidth": 150
+        },
+        {
+          "id": "productlist02",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "ProductName",
+          "columnwidth": 150
+        },
+        {
+          "id": "productlist03",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "ProductNumber",
+          "columnwidth": 150
+        },
+        {
+          "id": "productlist04",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "ProductType",
+          "columnwidth": 150
+        },
+
+        {
+          "id": "productlist08",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "CurrentPrice",
+          "columnwidth": 200
+        },
+        {
+          "id": "productlist09",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "Onhand",
+          "columnwidth": 200
+        },
+
+        {
+          "id": "productlist10",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "LastPaymentDate",
+          "columnwidth": 200
+        },
+        {
+          "id": "productlist11",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "PaymentDueDate",
+          "columnwidth": 200
+        },
+        {
+          "id": "productlist05",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "ProductFamily",
+          "columnwidth": 150
+        },
+        {
+          "id": "productlist06",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "SKU",
+          "columnwidth": 150
+        },
+
+        {
+          "id": "productlist07",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "CurrentCost",
+          "columnwidth": 150
+        }
+      ]
+    }
+  },
+  "paymentlist_listdata": {
+    "result": {
+      "data": [
+        {
+          "CustomerName": "Olivia Lopez",
+          "InvoiceID": "IN495",
+          "PaymentStatus": "Paid",
+          "PaymentMethod": "CreditCard",
+          "TotalAmount": "500",
+          "PaidAmount": "500",
+          "BalanceAmount": "0",
+          "AssosiatedContact": "Nadhan Wood",
+          "AssosiatedOppurtunity": "Mathew Thomas",
+          "PaymentDueDate": "07/24/2024",
+          "LastPaymentDate": "07/24/2024"
+        },
+        {
+          "CustomerName": "Ethan Miller",
+          "InvoiceID": "IN496",
+          "PaymentStatus": "Unpaid",
+          "PaymentMethod": "BankTransfer",
+          "TotalAmount": "700",
+          "PaidAmount": "0",
+          "BalanceAmount": "700",
+          "AssosiatedContact": "Sarah Johnson",
+          "AssosiatedOppurtunity": "Daniel Craig",
+          "PaymentDueDate": "08/15/2024",
+          "LastPaymentDate": "N/A"
+        },
+        {
+          "CustomerName": "Sophia Johnson",
+          "InvoiceID": "IN497",
+          "PaymentStatus": "Partial",
+          "PaymentMethod": "PayPal",
+          "TotalAmount": "900",
+          "PaidAmount": "400",
+          "BalanceAmount": "500",
+          "AssosiatedContact": "John Carter",
+          "AssosiatedOppurtunity": "Lisa Ray",
+          "PaymentDueDate": "08/20/2024",
+          "LastPaymentDate": "07/28/2024"
+        },
+        {
+          "CustomerName": "Liam Wilson",
+          "InvoiceID": "IN498",
+          "PaymentStatus": "Paid",
+          "PaymentMethod": "DebitCard",
+          "TotalAmount": "350",
+          "PaidAmount": "350",
+          "BalanceAmount": "0",
+          "AssosiatedContact": "Mike Taylor",
+          "AssosiatedOppurtunity": "Emily Davis",
+          "PaymentDueDate": "07/30/2024",
+          "LastPaymentDate": "07/30/2024"
+        },
+        {
+          "CustomerName": "Emma Brown",
+          "InvoiceID": "IN499",
+          "PaymentStatus": "Unpaid",
+          "PaymentMethod": "BankTransfer",
+          "TotalAmount": "600",
+          "PaidAmount": "0",
+          "BalanceAmount": "600",
+          "AssosiatedContact": "Tom White",
+          "AssosiatedOppurtunity": "Natalie Morgan",
+          "PaymentDueDate": "08/05/2024",
+          "LastPaymentDate": "N/A"
+        },
+        {
+          "CustomerName": "James Anderson",
+          "InvoiceID": "IN500",
+          "PaymentStatus": "Partial",
+          "PaymentMethod": "CreditCard",
+          "TotalAmount": "1,200",
+          "PaidAmount": "500",
+          "BalanceAmount": "700",
+          "AssosiatedContact": "Sophia Green",
+          "AssosiatedOppurtunity": "Chris Harris",
+          "PaymentDueDate": "08/18/2024",
+          "LastPaymentDate": "08/01/2024"
+        },
+        {
+          "CustomerName": "Isabella Martinez",
+          "InvoiceID": "IN501",
+          "PaymentStatus": "Paid",
+          "PaymentMethod": "PayPal",
+          "TotalAmount": "750",
+          "PaidAmount": "750",
+          "BalanceAmount": "0",
+          "AssosiatedContact": "Daniel Lewis",
+          "AssosiatedOppurtunity": "Megan Brooks",
+          "PaymentDueDate": "07/29/2024",
+          "LastPaymentDate": "07/29/2024"
+        },
+        {
+          "CustomerName": "Benjamin Harris",
+          "InvoiceID": "IN502",
+          "PaymentStatus": "Unpaid",
+          "PaymentMethod": "BankTransfer",
+          "TotalAmount": "920",
+          "PaidAmount": "0",
+          "BalanceAmount": "920",
+          "AssosiatedContact": "Lucas Scott",
+          "AssosiatedOppurtunity": "Emma Stone",
+          "PaymentDueDate": "08/11/2024",
+          "LastPaymentDate": "N/A"
+        },
+        {
+          "CustomerName": "Mia Clark",
+          "InvoiceID": "IN503",
+          "PaymentStatus": "Partial",
+          "PaymentMethod": "DebitCard",
+          "TotalAmount": "450",
+          "PaidAmount": "200",
+          "BalanceAmount": "250",
+          "AssosiatedContact": "Ava Parker",
+          "AssosiatedOppurtunity": "Kevin Adams",
+          "PaymentDueDate": "08/09/2024",
+          "LastPaymentDate": "08/02/2024"
+        },
+        {
+          "CustomerName": "Alexander Wright",
+          "InvoiceID": "IN504",
+          "PaymentStatus": "Paid",
+          "PaymentMethod": "CreditCard",
+          "TotalAmount": "800",
+          "PaidAmount": "800",
+          "BalanceAmount": "0",
+          "AssosiatedContact": "Grace Hall",
+          "AssosiatedOppurtunity": "Jason Thomas",
+          "PaymentDueDate": "07/26/2024",
+          "LastPaymentDate": "07/26/2024"
+        },
+        {
+          "CustomerName": "Charlotte Scott",
+          "InvoiceID": "IN505",
+          "PaymentStatus": "Unpaid",
+          "PaymentMethod": "BankTransfer",
+          "TotalAmount": "530",
+          "PaidAmount": "0",
+          "BalanceAmount": "530",
+          "AssosiatedContact": "Oliver Davis",
+          "AssosiatedOppurtunity": "Sophia Hill",
+          "PaymentDueDate": "08/14/2024",
+          "LastPaymentDate": "N/A"
+        },
+        {
+          "CustomerName": "Mason Thomas",
+          "InvoiceID": "IN506",
+          "PaymentStatus": "Partial",
+          "PaymentMethod": "PayPal",
+          "TotalAmount": "990",
+          "PaidAmount": "400",
+          "BalanceAmount": "590",
+          "AssosiatedContact": "Lucas King",
+          "AssosiatedOppurtunity": "Ava Harris",
+          "PaymentDueDate": "08/17/2024",
+          "LastPaymentDate": "08/04/2024"
+        },
+        {
+          "CustomerName": "Amelia Lewis",
+          "InvoiceID": "IN507",
+          "PaymentStatus": "Paid",
+          "PaymentMethod": "DebitCard",
+          "TotalAmount": "1,100",
+          "PaidAmount": "1,100",
+          "BalanceAmount": "0",
+          "AssosiatedContact": "Noah Hall",
+          "AssosiatedOppurtunity": "Ethan Miller",
+          "PaymentDueDate": "07/31/2024",
+          "LastPaymentDate": "07/31/2024"
+        },
+        {
+          "CustomerName": "Henry King",
+          "InvoiceID": "IN508",
+          "PaymentStatus": "Unpaid",
+          "PaymentMethod": "BankTransfer",
+          "TotalAmount": "890",
+          "PaidAmount": "0",
+          "BalanceAmount": "890",
+          "AssosiatedContact": "Ava Martin",
+          "AssosiatedOppurtunity": "Zoe Carter",
+          "PaymentDueDate": "08/22/2024",
+          "LastPaymentDate": "N/A"
+        },
+        {
+          "CustomerName": "Harper Adams",
+          "InvoiceID": "IN509",
+          "PaymentStatus": "Partial",
+          "PaymentMethod": "CreditCard",
+          "TotalAmount": "620",
+          "PaidAmount": "300",
+          "BalanceAmount": "320",
+          "AssosiatedContact": "Emily Clark",
+          "AssosiatedOppurtunity": "John Wilson",
+          "PaymentDueDate": "08/13/2024",
+          "LastPaymentDate": "08/06/2024"
+        }
+      ],
+      "totalRecords": 20
+    }
   }
 }
