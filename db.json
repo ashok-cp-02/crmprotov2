@@ -6830,7 +6830,7 @@
               "listfields": [
                 {
                   "id": "quote00",
-                  "name": "Quote Number",
+                  "name": "Quotation ID",
                   "lablekey": "entity-name-lbl",
                   "columnwidth": 150,
                   "seqno": 1,
@@ -6847,10 +6847,28 @@
                   "islookup": false
                 },
                 {
+                  "id": "quote0056",
+                  "name": "Quotation Name",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 180,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "quotationname",
+                  "visible": true,
+                  "displayapiname": "Quotename",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
                   "id": "quote011",
                   "name": "Opportunity Name",
                   "lablekey": "entity-name-lbl",
-                  "columnwidth": 150,
+                  "columnwidth": 180,
                   "seqno": 1,
                   "masterid": "",
                   "controltype": "textbox",
@@ -6866,7 +6884,7 @@
                 },
                 {
                   "id": "quote012",
-                  "name": "Contact Name",
+                  "name": "Primary Contact",
                   "lablekey": "entity-name-lbl",
                   "columnwidth": 150,
                   "seqno": 1,
@@ -6883,83 +6901,10 @@
                   "islookup": false
                 },
                 {
-                  "id": "quote01",
-                  "name": "Effective From",
-                  "lablekey": "entity-name-lbl",
-                  "columnwidth": 150,
-                  "seqno": 1,
-                  "masterid": "",
-                  "controltype": "textbox",
-                  "attrtype": "text",
-                  "currencytype": null,
-                  "api_name": "CreatedOn",
-                  "visible": true,
-                  "displayapiname": "EffectiveFrom",
-                  "inlineeditable": null,
-                  "istitle": false,
-                  "isdate": true,
-                  "islookup": false
-                },
-                {
-                  "id": "quote02",
-                  "name": "Effective To",
-                  "lablekey": "entity-name-lbl",
-                  "columnwidth": 150,
-                  "seqno": 1,
-                  "masterid": "",
-                  "controltype": "textbox",
-                  "attrtype": "text",
-                  "currencytype": null,
-                  "api_name": "CreatedOn",
-                  "visible": true,
-                  "displayapiname": "EffectiveTo",
-                  "inlineeditable": null,
-                  "istitle": false,
-                  "isdate": true,
-                  "islookup": false
-                },
-                {
-                  "id": "quote03",
-                  "name": "Expires On",
-                  "lablekey": "entity-name-lbl",
-                  "columnwidth": 150,
-                  "seqno": 1,
-                  "masterid": "",
-                  "controltype": "textbox",
-                  "attrtype": "text",
-                  "currencytype": null,
-                  "api_name": "CreatedOn",
-                  "visible": true,
-                  "displayapiname": "ExpiresOn",
-                  "inlineeditable": null,
-                  "istitle": false,
-                  "isdate": true,
-                  "islookup": false
-                },
-
-                {
-                  "id": "quote04",
-                  "name": "Description",
-                  "lablekey": "entity-name-lbl",
-                  "columnwidth": 150,
-                  "seqno": 1,
-                  "masterid": "",
-                  "controltype": "textbox",
-                  "attrtype": "text",
-                  "currencytype": null,
-                  "api_name": "DisplayName",
-                  "visible": true,
-                  "displayapiname": "Description",
-                  "inlineeditable": null,
-                  "istitle": false,
-                  "isdate": false,
-                  "islookup": false
-                },
-                {
                   "id": "quote05",
                   "name": "Stage",
                   "lablekey": "entity-name-lbl",
-                  "columnwidth": 150,
+                  "columnwidth": 120,
                   "seqno": 1,
                   "masterid": "",
                   "controltype": "textbox",
@@ -6977,7 +6922,7 @@
                   "id": "quote06",
                   "name": "Status",
                   "lablekey": "entity-name-lbl",
-                  "columnwidth": 150,
+                  "columnwidth": 180,
                   "seqno": 1,
                   "masterid": "",
                   "controltype": "textbox",
@@ -6986,6 +6931,24 @@
                   "api_name": "DisplayName",
                   "visible": true,
                   "displayapiname": "Status",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "quote01",
+                  "name": "Quotation Owner",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "CreatedOn",
+                  "visible": true,
+                  "displayapiname": "EffectiveFrom",
                   "inlineeditable": null,
                   "istitle": false,
                   "isdate": false,
@@ -7008,12 +6971,30 @@
                   "istitle": false,
                   "isdate": false,
                   "islookup": false
+                },
+                {
+                  "id": "quote03",
+                  "name": "Expires On",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "CreatedOn",
+                  "visible": true,
+                  "displayapiname": "ExpiresOn",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
                 }
               ],
               "filterfields": [
                 {
                   "id": "7ab60770-50f7-4851-a501-a813dc3212fgef134",
-                  "name": "Quote Name",
+                  "name": "Quotation Name",
                   "lablekey": "entity-type-lbl",
                   "seqno": 5,
                   "filtercontroltype": "textbox",
@@ -7079,20 +7060,7 @@
                 },
                 {
                   "id": "001",
-                  "name": "Expires On",
-                  "lablekey": "lbl-Account-CreatedOn",
-                  "seqno": 73,
-                  "filtercontroltype": "datepicker",
-                  "isquickfilter": true,
-                  "api_name": "CreatedOn",
-                  "islookup": true,
-                  "masterid": "005",
-                  "apioutputskey": "",
-                  "apioutputvalue": ""
-                },
-                {
-                  "id": "006",
-                  "name": "Valid Till",
+                  "name": "Created On",
                   "lablekey": "lbl-Account-CreatedOn",
                   "seqno": 73,
                   "filtercontroltype": "datepicker",
@@ -7223,6 +7191,15 @@
           "columnwidth": 150
         },
         {
+          "id": "quote0056",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "quotationname",
+          "columnwidth": 150
+        },
+        {
           "id": "quote011",
           "seqno": 1,
           "masterid": "",
@@ -7239,44 +7216,6 @@
           "attrtype": "text",
           "api_name": "ContactName",
           "columnwidth": 200
-        },
-        {
-          "id": "quote01",
-          "seqno": 1,
-          "masterid": "",
-          "controltype": "textbox",
-          "attrtype": "text",
-          "api_name": "EffectiveFrom",
-          "columnwidth": 150
-        },
-
-        {
-          "id": "quote02",
-          "seqno": 1,
-          "masterid": "",
-          "controltype": "textbox",
-          "attrtype": "text",
-          "api_name": "EffectiveTo",
-          "columnwidth": 150
-        },
-        {
-          "id": "quote03",
-          "seqno": 1,
-          "masterid": "",
-          "controltype": "textbox",
-          "attrtype": "text",
-          "api_name": "ExpiresOn",
-          "columnwidth": 150
-        },
-
-        {
-          "id": "quote04",
-          "seqno": 1,
-          "masterid": "",
-          "controltype": "textbox",
-          "attrtype": "text",
-          "api_name": "Description",
-          "columnwidth": 300
         },
         {
           "id": "quote05",
@@ -7297,12 +7236,31 @@
           "columnwidth": 150
         },
         {
+          "id": "quote01",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "EffectiveFrom",
+          "columnwidth": 150
+        },
+
+        {
           "id": "quote07",
           "seqno": 1,
           "masterid": "",
           "controltype": "textbox",
           "attrtype": "text",
           "api_name": "Totalamount",
+          "columnwidth": 150
+        },
+        {
+          "id": "quote03",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "ExpiresOn",
           "columnwidth": 150
         }
       ]
@@ -7313,94 +7271,87 @@
       "data": [
         {
           "id": "01",
-          "QuoteNumber": "QUT_10001",
-          "OpportunityName": "Project Aurora",
-          "ContactName": "John Doe",
-          "EffectiveFrom": "01/01/2026 06:51:52 am",
-          "EffectiveTo": "01/01/2026 06:51:52 am",
-          "ExpiresOn": "01/01/2027 06:51:52 am",
-          "Description": "Service Charge for Consultation: This is a charge for a professional consultation with one of our experts. ($200)",
+          "QuoteNumber": "QU-001",
+          "Quotename": "Solar Quotation",
+          "OpportunityName": "Sell Opportunity",
+          "ContactName": "Ashley Gonzalez",
           "Stage": "Draft",
-          "Status": "Pending submission",
-          "Totalamount": "8979.9"
+          "Status": "Pending Submission",
+          "EffectiveFrom": "Jack Smith",
+          "Totalamount": "₹ 7,05,000",
+          "ExpiresOn": "02/10/2025"
         },
         {
           "id": "02",
-          "QuoteNumber": "QUT_10002",
-          "OpportunityName": "Venture Blaze",
-          "ContactName": "Jane Smith",
-          "EffectiveFrom": "02/14/2026 06:51:52 am",
-          "EffectiveTo": "02/14/2026 06:51:52 am",
-          "ExpiresOn": "01/15/2027 06:51:52 am",
-          "Description": "Delivery Fee: This fee is for the transportation of merchandise from our warehouse to your location. ($20)",
-          "Stage": "Review",
-          "Status": "Approved",
-          "Totalamount": "377"
+          "QuoteNumber": "QU-002",
+          "Quotename": "Service Queue",
+          "OpportunityName": "Upsell Opportunity",
+          "ContactName": "John Clark",
+          "Stage": "Sent",
+          "Status": "Pending Approval",
+          "EffectiveFrom": "Sarah Williams",
+          "Totalamount": "₹ 2,91,000",
+          "ExpiresOn": "26/07/2025"
         },
         {
           "id": "03",
-          "QuoteNumber": "QUT_10003",
-          "OpportunityName": "Initiative Crest",
-          "ContactName": "Alice Johnson",
-          "EffectiveFrom": "03/20/2026 06:51:52 am",
-          "EffectiveTo": "03/20/2026 06:51:52 am",
-          "ExpiresOn": "02/07/2027 06:51:52 am",
-          "Description": "Installation of Security System: This is a one-time charge for the installation of a new security system in your office. ($500)",
-          "Stage": "Sent",
-          "Status": "Accepted",
-          "Totalamount": "5672"
+          "QuoteNumber": "QU-003",
+          "Quotename": "Commercial Quote",
+          "OpportunityName": "Renewal Opportunity",
+          "ContactName": "Elizabeth Bailey",
+          "Stage": "Review",
+          "Status": "Rejected",
+          "EffectiveFrom": "Nathan Wood",
+          "Totalamount": "₹ 7,45,000",
+          "ExpiresOn": "16/12/2025"
         },
         {
           "id": "04",
-          "QuoteNumber": "QUT_10004",
-          "OpportunityName": "Operation Dawn",
-          "ContactName": "Bob Brown",
-          "EffectiveFrom": "04/25/2026 06:51:52 am",
-          "EffectiveTo": "04/25/2026 06:51:52 am",
-          "ExpiresOn": "03/12/2027 06:51:52 am",
-          "Description": "Printing and Binding Services: This invoice includes the cost of printing and binding 500 copies of your annual report. ($150)",
-          "Stage": "Review",
-          "Status": "Waiting for Approval",
-          "Totalamount": "1000.78"
+          "QuoteNumber": "QU-004",
+          "Quotename": "Customer Quote",
+          "OpportunityName": "Strategic Deal",
+          "ContactName": "Mathew Martinez",
+          "Stage": "Draft",
+          "Status": "Pending Submission",
+          "EffectiveFrom": "Elizabeth Clark",
+          "Totalamount": "₹ 6,27,000",
+          "ExpiresOn": "17/10/2025"
         },
         {
           "id": "05",
-          "QuoteNumber": "QUT_10005",
-          "OpportunityName": "Endeavor Edge",
-          "ContactName": "Carol Davis",
-          "EffectiveFrom": "05/15/2026 06:51:52 am",
-          "EffectiveTo": "05/15/2026 06:51:52 am",
-          "ExpiresOn": "04/01/2027 06:51:52 am",
-          "Description": "Design and Development of Website: This is a charge for the design and development of a new website for your company. ($3,000)",
-          "Stage": "Sent",
-          "Status": "Rejected",
-          "Totalamount": "5627"
+          "QuoteNumber": "QU-005",
+          "Quotename": "Product Quotation",
+          "OpportunityName": "Trial Conversion",
+          "ContactName": "Mia Gonzalez",
+          "Stage": "Review",
+          "Status": "Approved",
+          "EffectiveFrom": "Brian Bailey",
+          "Totalamount": "₹ 1,25,000",
+          "ExpiresOn": "22/02/2025"
         },
         {
           "id": "06",
-          "QuoteNumber": "QUT_10006",
-          "OpportunityName": "Campaign Falcon",
-          "ContactName": "David Miller",
-          "EffectiveFrom": "06/30/2026 06:51:52 am",
-          "EffectiveTo": "06/30/2026 06:51:52 am",
-          "ExpiresOn": "04/20/2027 06:51:52 am",
-          "Description": "Labor Costs for Repair Work: This charge reflects the cost of labor for repairing your air conditioner. ($150)",
-          "Stage": "Draft",
-          "Status": "Pending submission",
-          "Totalamount": "2908"
+          "QuoteNumber": "QU-006",
+          "Quotename": "Service Quote",
+          "OpportunityName": "Partner opportunity",
+          "ContactName": "Mamuel Fernandez",
+          "Stage": "Sent",
+          "Status": "Pending Approval",
+          "EffectiveFrom": "Olivia Miller",
+          "Totalamount": "₹ 6,85,000",
+          "ExpiresOn": "01/01/2025"
         },
         {
           "id": "07",
-          "QuoteNumber": "QUT_10007",
-          "OpportunityName": "Skyline Innovations",
-          "ContactName": "Emily White",
-          "EffectiveFrom": "07/10/2026 06:51:52 am",
-          "EffectiveTo": "07/10/2026 06:51:52 am",
-          "ExpiresOn": "06/05/2027 06:51:52 am",
-          "Description": "Consulting Services: Business strategy consulting for new product launch. ($2,500)",
+          "QuoteNumber": "QU-007",
+          "Quotename": "Subscription Quote",
+          "OpportunityName": "Cross-Sell Opportunity",
+          "ContactName": "Maria White",
           "Stage": "Draft",
-          "Status": "Pending submission",
-          "Totalamount": "4500"
+          "Status": "Pending Submission",
+          "EffectiveFrom": "Ryan Smith",
+          "Totalamount": "₹ 5,37,000",
+          "ExpiresOn": "12/04/2025"
         }
       ],
 
@@ -8340,6 +8291,7 @@
       "totalRecords": 20
     }
   },
+
   "invoice_getlookupdatabyid": {
     "result": {
       "data": {
