@@ -6764,19 +6764,19 @@
           {
             "islookup": true,
             "masterid": "005",
-            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Contact\"},{\"optionid\":\"002\",\"optionvalue\":\"Account\"}]",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Sell Opportunity\"},{\"optionid\":\"002\",\"optionvalue\":\"Upsell Opportunity\"},{\"optionid\":\"003\",\"optionvalue\":\"Renewel Opportunity\"},{\"optionid\":\"004\",\"optionvalue\":\"Strategic Deal\"},{\"optionid\":\"005\",\"optionvalue\":\"Trial conversion\"},{\"optionid\":\"006\",\"optionvalue\":\"Partner opportunity\"},{\"optionid\":\"007\",\"optionvalue\":\"Cross-Sell opportunity\"}]",
             "groupvalue": {}
           },
           {
             "islookup": true,
             "masterid": "006",
-            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Contact\"},{\"optionid\":\"002\",\"optionvalue\":\"Account\"},{\"optionid\":\"003\",\"optionvalue\":\"Opportunity\"},{\"optionid\":\"004\",\"optionvalue\":\"Tickets\"}]",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Draft\"},{\"optionid\":\"002\",\"optionvalue\":\"Sent\"},{\"optionid\":\"003\",\"optionvalue\":\"Review\"}]",
             "groupvalue": {}
           },
           {
             "islookup": true,
             "masterid": "007",
-            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"BMobile\"},{\"optionid\":\"002\",\"optionvalue\":\"CMS\"},{\"optionid\":\"003\",\"optionvalue\":\"ISC\"},{\"optionid\":\"004\",\"optionvalue\":\"STS\"},{\"optionid\":\"005\",\"optionvalue\":\"VTS\"}]",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Pending Submission\"},{\"optionid\":\"002\",\"optionvalue\":\"Pending Approval\"},{\"optionid\":\"003\",\"optionvalue\":\"Rejected\"},{\"optionid\":\"004\",\"optionvalue\":\"Approval\"}]",
             "groupvalue": {}
           },
           {
@@ -7028,7 +7028,7 @@
                   "isquickfilter": true,
                   "api_name": "CreatedOn",
                   "islookup": true,
-                  "masterid": "005",
+                  "masterid": "000101",
                   "apioutputskey": "",
                   "apioutputvalue": ""
                 },
@@ -7041,7 +7041,7 @@
                   "isquickfilter": true,
                   "api_name": "CreatedOn",
                   "islookup": true,
-                  "masterid": "005",
+                  "masterid": "006",
                   "apioutputskey": "",
                   "apioutputvalue": ""
                 },
@@ -7054,7 +7054,7 @@
                   "isquickfilter": true,
                   "api_name": "CreatedOn",
                   "islookup": true,
-                  "masterid": "005",
+                  "masterid": "007",
                   "apioutputskey": "",
                   "apioutputvalue": ""
                 },
@@ -7086,6 +7086,16 @@
                 {
                   "id": "4ea16646-f64b-4749-b61d-8fd9593cf591",
                   "name": "Contact Name",
+                  "labelkey": "contact_workflowstage_lbl",
+                  "seqno": null,
+                  "api_name": "Workflow Stage",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "B347784C-2C93-4D3E-8C2F-F9C8BDFA5755"
+                },
+                {
+                  "id": "4ea16646-f64b-4749-b61d-8fd9593cf5912",
+                  "name": "Quotation Owner",
                   "labelkey": "contact_workflowstage_lbl",
                   "seqno": null,
                   "api_name": "Workflow Stage",
