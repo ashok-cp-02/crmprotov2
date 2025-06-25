@@ -7278,7 +7278,7 @@
           "Stage": "Draft",
           "Status": "Pending Submission",
           "EffectiveFrom": "Jack Smith",
-          "Totalamount": "₹ 7,05,000",
+          "Totalamount": "$ 7,05,000",
           "ExpiresOn": "02/10/2025"
         },
         {
@@ -7290,7 +7290,7 @@
           "Stage": "Sent",
           "Status": "Pending Approval",
           "EffectiveFrom": "Sarah Williams",
-          "Totalamount": "₹ 2,91,000",
+          "Totalamount": "$ 2,91,000",
           "ExpiresOn": "26/07/2025"
         },
         {
@@ -7302,7 +7302,7 @@
           "Stage": "Review",
           "Status": "Rejected",
           "EffectiveFrom": "Nathan Wood",
-          "Totalamount": "₹ 7,45,000",
+          "Totalamount": "$ 7,45,000",
           "ExpiresOn": "16/12/2025"
         },
         {
@@ -7314,7 +7314,7 @@
           "Stage": "Draft",
           "Status": "Pending Submission",
           "EffectiveFrom": "Elizabeth Clark",
-          "Totalamount": "₹ 6,27,000",
+          "Totalamount": "$ 6,27,000",
           "ExpiresOn": "17/10/2025"
         },
         {
@@ -7326,7 +7326,7 @@
           "Stage": "Review",
           "Status": "Approved",
           "EffectiveFrom": "Brian Bailey",
-          "Totalamount": "₹ 1,25,000",
+          "Totalamount": "$ 1,25,000",
           "ExpiresOn": "22/02/2025"
         },
         {
@@ -7338,7 +7338,7 @@
           "Stage": "Sent",
           "Status": "Pending Approval",
           "EffectiveFrom": "Olivia Miller",
-          "Totalamount": "₹ 6,85,000",
+          "Totalamount": "$ 6,85,000",
           "ExpiresOn": "01/01/2025"
         },
         {
@@ -7350,7 +7350,7 @@
           "Stage": "Draft",
           "Status": "Pending Submission",
           "EffectiveFrom": "Ryan Smith",
-          "Totalamount": "₹ 5,37,000",
+          "Totalamount": "$ 5,37,000",
           "ExpiresOn": "12/04/2025"
         }
       ],
