@@ -15001,7 +15001,7 @@
               "listfields": [
                 {
                   "id": "productlist00",
-                  "name": "Customer Name",
+                  "name": "Lead Name",
                   "lablekey": "entity-name-lbl",
                   "columnwidth": 150,
                   "seqno": 1,
@@ -15019,7 +15019,7 @@
                 },
                 {
                   "id": "productlist02",
-                  "name": "Customer Type",
+                  "name": "Lead Source",
                   "lablekey": "entity-name-lbl",
                   "columnwidth": 150,
                   "seqno": 1,
@@ -15037,7 +15037,7 @@
                 },
                 {
                   "id": "productlist03",
-                  "name": "Email",
+                  "name": "Job Title",
                   "lablekey": "entity-name-lbl",
                   "columnwidth": 150,
                   "seqno": 1,
@@ -15055,7 +15055,7 @@
                 },
                 {
                   "id": "productlist04",
-                  "name": "Contact",
+                  "name": "Lifecycle Status",
                   "lablekey": "entity-name-lbl",
                   "columnwidth": 150,
                   "seqno": 1,
@@ -15072,8 +15072,44 @@
                   "islookup": false
                 },
                 {
-                  "id": "productlist08",
-                  "name": "Status",
+                  "id": "productlist05",
+                  "name": "Time Zone",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 100,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "AssosiatedContact",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist06",
+                  "name": "Revenue",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 100,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "AssosiatedContact",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist07",
+                  "name": "Address",
                   "lablekey": "entity-name-lbl",
                   "columnwidth": 100,
                   "seqno": 1,
@@ -15093,7 +15129,7 @@
               "filterfields": [
                 {
                   "id": "001",
-                  "name": "Customer Name",
+                  "name": "Lifecycle Status",
                   "lablekey": "entity-type-lbl",
                   "seqno": 5,
                   "filtercontroltype": "dropdown",
@@ -15105,8 +15141,8 @@
                   "apioutputvalue": "optionvalue"
                 },
                 {
-                  "id": "003",
-                  "name": "Customer Type",
+                  "id": "002",
+                  "name": "Lead Source",
                   "lablekey": "lbl-Account-CreatedOn",
                   "seqno": 73,
                   "filtercontroltype": "dropdown",
@@ -15118,8 +15154,34 @@
                   "apioutputvalue": ""
                 },
                 {
+                  "id": "003",
+                  "name": "Job Title",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "dropdown",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "3003",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
                   "id": "004",
-                  "name": "Status",
+                  "name": "Time Zone",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "dropdown",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "3003",
+                  "apioutputskey": "",
+                  "apioutputvalue": ""
+                },
+                {
+                  "id": "005",
+                  "name": "Revenue",
                   "lablekey": "lbl-Account-CreatedOn",
                   "seqno": 73,
                   "filtercontroltype": "dropdown",
@@ -15256,9 +15318,8 @@
           "api_name": "ProductType",
           "columnwidth": 150
         },
-
         {
-          "id": "productlist08",
+          "id": "productlist05",
           "seqno": 1,
           "masterid": "",
           "controltype": "textbox",
@@ -15295,15 +15356,6 @@
           "columnwidth": 200
         },
         {
-          "id": "productlist05",
-          "seqno": 1,
-          "masterid": "",
-          "controltype": "textbox",
-          "attrtype": "text",
-          "api_name": "ProductFamily",
-          "columnwidth": 150
-        },
-        {
           "id": "productlist06",
           "seqno": 1,
           "masterid": "",
@@ -15327,60 +15379,187 @@
   },
   "addcustomerpopup_listdata": {
     "result": {
-      "data": [
-        {
-          "CustomerName": "John's Bakery",
-          "InvoiceID": "Business",
-          "PaymentStatus": "hotbreads@gmail.com",
-          "PaymentMethod": "(111) 222-3333",
-          "AssosiatedContact": "Active"
-        },
-        {
-          "CustomerName": "Fresh Farm",
-          "InvoiceID": "Business",
-          "PaymentStatus": "mickeysbakery@gmail.com",
-          "PaymentMethod": "(444) 555-6666",
-          "AssosiatedContact": "Active",
-          "PaymentDueDate": "06/4/2024",
-          "LastPaymentDate": "Draft",
-          "DisplayName": "07/24/2024",
-          "AssosiatedOppurtunity": "03/06/2024"
-        },
-        {
-          "CustomerName": "Mecrenette",
-          "InvoiceID": "Business",
-          "PaymentStatus": "mecrenette@gmail.com",
-          "PaymentMethod": "(321) 654-9870",
-          "AssosiatedContact": "Active",
-          "PaymentDueDate": "02/30/2024",
-          "LastPaymentDate": "Inactive",
-          "DisplayName": "09/24/2024",
-          "AssosiatedOppurtunity": "09/29/2024"
-        },
-        {
-          "CustomerName": "Mickeys Bakery",
-          "InvoiceID": "Business",
-          "PaymentStatus": "freshfarm@gmail.com",
-          "PaymentMethod": "(123) 456-7890",
-          "AssosiatedContact": "Active",
-          "PaymentDueDate": "06/4/2024",
-          "LastPaymentDate": "Draft",
-          "DisplayName": "07/24/2024",
-          "AssosiatedOppurtunity": "03/06/2024"
-        },
-        {
-          "CustomerName": "Hot breads",
-          "InvoiceID": "Business",
-          "PaymentStatus": "johnsbakery@gmail.com",
-          "PaymentMethod": "(111) 222-3333",
-          "AssosiatedContact": "Active",
-          "PaymentDueDate": "02/30/2024",
-          "LastPaymentDate": "Inactive",
-          "DisplayName": "09/24/2024",
-          "AssosiatedOppurtunity": "09/29/2024"
-        }
-      ],
-      "totalRecords": 3
+      
+  "data": [
+    {
+      "CustomerName": "Jessica",
+      "InvoiceID": "INV-35026",
+      "PaymentStatus": "Pending",
+      "PaymentMethod": "Not Set",
+      "AssociatedContact": "jessica@yahoo.com",
+      "PaymentDueDate": "",
+      "LastPaymentDate": "",
+      "DisplayName": "Jessica",
+      "AssociatedOpportunity": ""
+    },
+    {
+      "CustomerName": "Joviya",
+      "InvoiceID": "INV-35027",
+      "PaymentStatus": "Pending",
+      "PaymentMethod": "Not Set",
+      "AssociatedContact": "joviya@gmail.com",
+      "PaymentDueDate": "",
+      "LastPaymentDate": "",
+      "DisplayName": "Joviya",
+      "AssociatedOpportunity": ""
+    },
+    {
+      "CustomerName": "Olivia Martin",
+      "InvoiceID": "INV-35032",
+      "PaymentStatus": "Pending",
+      "PaymentMethod": "Not Set",
+      "AssociatedContact": "jessqicaq@yahoo.com",
+      "PaymentDueDate": "",
+      "LastPaymentDate": "",
+      "DisplayName": "Olivia Martin",
+      "AssociatedOpportunity": ""
+    },
+    {
+      "CustomerName": "Emma Levis",
+      "InvoiceID": "INV-35033",
+      "PaymentStatus": "Pending",
+      "PaymentMethod": "Not Set",
+      "AssociatedContact": "lindaaz@outlook.com",
+      "PaymentDueDate": "",
+      "LastPaymentDate": "",
+      "DisplayName": "Emma Levis",
+      "AssociatedOpportunity": ""
+    },
+    {
+      "CustomerName": "Neera B",
+      "InvoiceID": "INV-35020",
+      "PaymentStatus": "Pending",
+      "PaymentMethod": "Not Set",
+      "AssociatedContact": "neera@gmail.com",
+      "PaymentDueDate": "",
+      "LastPaymentDate": "",
+      "DisplayName": "Neera B",
+      "AssociatedOpportunity": ""
+    },
+    {
+      "CustomerName": "Michael Robert",
+      "InvoiceID": "INV-35030",
+      "PaymentStatus": "Pending",
+      "PaymentMethod": "Not Set",
+      "AssociatedContact": "joviyal@gmail.com",
+      "PaymentDueDate": "",
+      "LastPaymentDate": "",
+      "DisplayName": "Michael Robert",
+      "AssociatedOpportunity": ""
+    },
+    {
+      "CustomerName": "Emily carter",
+      "InvoiceID": "INV-35031",
+      "PaymentStatus": "Pending",
+      "PaymentMethod": "Not Set",
+      "AssociatedContact": "lindaz@outlook.com",
+      "PaymentDueDate": "",
+      "LastPaymentDate": "",
+      "DisplayName": "Emily carter",
+      "AssociatedOpportunity": ""
+    },
+    {
+      "CustomerName": "John Anderson",
+      "InvoiceID": "INV-35029",
+      "PaymentStatus": "Pending",
+      "PaymentMethod": "Not Set",
+      "AssociatedContact": "jessicaq@yahoo.com",
+      "PaymentDueDate": "",
+      "LastPaymentDate": "",
+      "DisplayName": "John Anderson",
+      "AssociatedOpportunity": ""
+    },
+    {
+      "CustomerName": "nathiya B",
+      "InvoiceID": "INV-35019",
+      "PaymentStatus": "Pending",
+      "PaymentMethod": "Not Set",
+      "AssociatedContact": "nathiua@gmail.com",
+      "PaymentDueDate": "",
+      "LastPaymentDate": "",
+      "DisplayName": "nathiya B",
+      "AssociatedOpportunity": ""
+    },
+    {
+      "CustomerName": "Linda",
+      "InvoiceID": "INV-35028",
+      "PaymentStatus": "Pending",
+      "PaymentMethod": "Not Set",
+      "AssociatedContact": "linda@outlook.com",
+      "PaymentDueDate": "",
+      "LastPaymentDate": "",
+      "DisplayName": "Linda",
+      "AssociatedOpportunity": ""
+    },
+    {
+      "CustomerName": "Sartin",
+      "InvoiceID": "INV-35023",
+      "PaymentStatus": "Pending",
+      "PaymentMethod": "Not Set",
+      "AssociatedContact": "linda@gmail.com",
+      "PaymentDueDate": "",
+      "LastPaymentDate": "",
+      "DisplayName": "Sartin",
+      "AssociatedOpportunity": ""
+    },
+    {
+      "CustomerName": "Jovia",
+      "InvoiceID": "INV-35025",
+      "PaymentStatus": "Pending",
+      "PaymentMethod": "Not Set",
+      "AssociatedContact": "jovia@yahoo.com",
+      "PaymentDueDate": "",
+      "LastPaymentDate": "",
+      "DisplayName": "Jovia",
+      "AssociatedOpportunity": ""
+    },
+    {
+      "CustomerName": "Esla",
+      "InvoiceID": "INV-35024",
+      "PaymentStatus": "Pending",
+      "PaymentMethod": "Not Set",
+      "AssociatedContact": "esla@outlook.com",
+      "PaymentDueDate": "",
+      "LastPaymentDate": "",
+      "DisplayName": "Esla",
+      "AssociatedOpportunity": ""
+    },
+    {
+      "CustomerName": "Will Byers",
+      "InvoiceID": "INV-35007",
+      "PaymentStatus": "Pending",
+      "PaymentMethod": "Not Set",
+      "AssociatedContact": "james@gmail.com",
+      "PaymentDueDate": "",
+      "LastPaymentDate": "",
+      "DisplayName": "Will Byers",
+      "AssociatedOpportunity": ""
+    },
+    {
+      "CustomerName": "json server",
+      "InvoiceID": "INV-35009",
+      "PaymentStatus": "Pending",
+      "PaymentMethod": "Not Set",
+      "AssociatedContact": "yoy@gmail.com",
+      "PaymentDueDate": "",
+      "LastPaymentDate": "",
+      "DisplayName": "json server",
+      "AssociatedOpportunity": ""
+    },
+    {
+      "CustomerName": "tent pop",
+      "InvoiceID": "INV-35012",
+      "PaymentStatus": "Pending",
+      "PaymentMethod": "Not Set",
+      "AssociatedContact": "sd@gmail.com",
+      "PaymentDueDate": "",
+      "LastPaymentDate": "",
+      "DisplayName": "tent pop",
+      "AssociatedOpportunity": ""
+    }
+  ],
+  "totalRecords": 16
+
     }
   },
   "addcustomerpopupgroup_getlookupdatabyid": {
@@ -15595,7 +15774,7 @@
               "listfields": [
                 {
                   "id": "productlist00",
-                  "name": "Group Name",
+                  "name": "Customer Name",
                   "lablekey": "entity-name-lbl",
                   "columnwidth": 150,
                   "seqno": 1,
@@ -15613,7 +15792,7 @@
                 },
                 {
                   "id": "productlist02",
-                  "name": "Description",
+                  "name": "Customer Group",
                   "lablekey": "entity-name-lbl",
                   "columnwidth": 150,
                   "seqno": 1,
@@ -15623,7 +15802,7 @@
                   "currencytype": null,
                   "api_name": "DisplayName",
                   "visible": true,
-                  "displayapiname": "InvoiceID",
+                  "displayapiname": "CustomerGroup",
                   "inlineeditable": null,
                   "istitle": false,
                   "isdate": false,
@@ -15631,7 +15810,7 @@
                 },
                 {
                   "id": "productlist03",
-                  "name": "Customers",
+                  "name": "Customer Type",
                   "lablekey": "entity-name-lbl",
                   "columnwidth": 150,
                   "seqno": 1,
@@ -15641,7 +15820,43 @@
                   "currencytype": null,
                   "api_name": "DisplayName",
                   "visible": true,
-                  "displayapiname": "PaymentStatus",
+                  "displayapiname": "CustomerType",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist04",
+                  "name": "Industry",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "industry",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist05",
+                  "name": "Address",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "address",
                   "inlineeditable": null,
                   "istitle": false,
                   "isdate": false,
@@ -15651,7 +15866,59 @@
               "filterfields": [
                 {
                   "id": "001",
-                  "name": "Group Name",
+                  "name": "Customer Name",
+                  "lablekey": "entity-type-lbl",
+                  "seqno": 5,
+                  "filtercontroltype": "dropdown",
+                  "isquickfilter": true,
+                  "api_name": "EntityType",
+                  "islookup": false,
+                  "masterid": "202",
+                  "apioutputskey": "optionid",
+                  "apioutputvalue": "optionvalue"
+                },
+                {
+                  "id": "002",
+                  "name": "Customer Group",
+                  "lablekey": "entity-type-lbl",
+                  "seqno": 5,
+                  "filtercontroltype": "dropdown",
+                  "isquickfilter": true,
+                  "api_name": "EntityType",
+                  "islookup": false,
+                  "masterid": "202",
+                  "apioutputskey": "optionid",
+                  "apioutputvalue": "optionvalue"
+                },
+                {
+                  "id": "003",
+                  "name": "Customer Type",
+                  "lablekey": "entity-type-lbl",
+                  "seqno": 5,
+                  "filtercontroltype": "dropdown",
+                  "isquickfilter": true,
+                  "api_name": "EntityType",
+                  "islookup": false,
+                  "masterid": "202",
+                  "apioutputskey": "optionid",
+                  "apioutputvalue": "optionvalue"
+                },
+                {
+                  "id": "004",
+                  "name": "Customer Zone",
+                  "lablekey": "entity-type-lbl",
+                  "seqno": 5,
+                  "filtercontroltype": "dropdown",
+                  "isquickfilter": true,
+                  "api_name": "EntityType",
+                  "islookup": false,
+                  "masterid": "202",
+                  "apioutputskey": "optionid",
+                  "apioutputvalue": "optionvalue"
+                },
+                {
+                  "id": "005",
+                  "name": "Industry",
                   "lablekey": "entity-type-lbl",
                   "seqno": 5,
                   "filtercontroltype": "dropdown",
@@ -15790,7 +16057,7 @@
         },
 
         {
-          "id": "productlist08",
+          "id": "productlist05",
           "seqno": 1,
           "masterid": "",
           "controltype": "textbox",
@@ -15827,15 +16094,6 @@
           "columnwidth": 200
         },
         {
-          "id": "productlist05",
-          "seqno": 1,
-          "masterid": "",
-          "controltype": "textbox",
-          "attrtype": "text",
-          "api_name": "ProductFamily",
-          "columnwidth": 150
-        },
-        {
           "id": "productlist06",
           "seqno": 1,
           "masterid": "",
@@ -15862,17 +16120,17 @@
       "data": [
         {
           "CustomerName": "Loyal Group",
-          "InvoiceID": "Loyal customers",
-          "PaymentStatus": "34",
-          "PaymentMethod": "9878767655",
-          "AssosiatedContact": "Active"
+          "CustomerGroup": "Loyal customers",
+          "CustomerType": "34",
+          "industry": "9878767655",
+          "address": "Active"
         },
         {
           "CustomerName": "Business Groups",
-          "InvoiceID": "B2B Customers",
-          "PaymentStatus": "23",
-          "PaymentMethod": "9878767655",
-          "AssosiatedContact": "Active",
+          "CustomerGroup": "B2B Customers",
+          "CustomerType": "23",
+          "industry": "9878767655",
+          "address": "Active",
           "PaymentDueDate": "06/4/2024",
           "LastPaymentDate": "Draft",
           "DisplayName": "07/24/2024",
@@ -15880,14 +16138,42 @@
         },
         {
           "CustomerName": "Eco Group",
-          "InvoiceID": "Eco Group",
-          "PaymentStatus": "56",
-          "PaymentMethod": "9878767655",
-          "AssosiatedContact": "Active",
+          "CustomerGroup": "Eco Group",
+          "CustomerType": "56",
+          "industry": "9878767655",
+          "address": "Active",
           "PaymentDueDate": "02/30/2024",
           "LastPaymentDate": "Inactive",
           "DisplayName": "09/24/2024",
           "AssosiatedOppurtunity": "09/29/2024"
+        },
+        {
+          "CustomerName": "Loyal Group",
+          "CustomerGroup": "Loyal customers",
+          "CustomerType": "34",
+          "industry": "9878767655",
+          "address": "Active"
+        },
+        {
+          "CustomerName": "Loyal Group",
+          "CustomerGroup": "Loyal customers",
+          "CustomerType": "34",
+          "industry": "9878767655",
+          "address": "Active"
+        },
+        {
+          "CustomerName": "Loyal Group",
+          "CustomerGroup": "Loyal customers",
+          "CustomerType": "34",
+          "industry": "9878767655",
+          "address": "Active"
+        },
+        {
+          "CustomerName": "Loyal Group",
+          "CustomerGroup": "Loyal customers",
+          "CustomerType": "34",
+          "industry": "9878767655",
+          "address": "Active"
         }
       ],
       "totalRecords": 3
@@ -16662,26 +16948,8 @@
                   "islookup": false
                 },
                 {
-                  "id": "productlist04",
-                  "name": "Route Type",
-                  "lablekey": "entity-name-lbl",
-                  "columnwidth": 150,
-                  "seqno": 4,
-                  "masterid": "",
-                  "controltype": "textbox",
-                  "attrtype": "text",
-                  "currencytype": null,
-                  "api_name": "RouteType",
-                  "visible": true,
-                  "displayapiname": "RouteType",
-                  "inlineeditable": null,
-                  "istitle": false,
-                  "isdate": false,
-                  "islookup": false
-                },
-                {
                   "id": "productlist08",
-                  "name": "Truck",
+                  "name": "No of Customers",
                   "lablekey": "entity-name-lbl",
                   "columnwidth": 100,
                   "seqno": 5,
@@ -16689,9 +16957,9 @@
                   "controltype": "textbox",
                   "attrtype": "text",
                   "currencytype": null,
-                  "api_name": "Truck",
+                  "api_name": "no_of_customers",
                   "visible": true,
-                  "displayapiname": "Truck",
+                  "displayapiname": "no_of_customers",
                   "inlineeditable": null,
                   "istitle": false,
                   "isdate": false,
@@ -16734,45 +17002,8 @@
                   "islookup": false
                 },
                 {
-                  "id": "productlist11",
-                  "name": "Route Progress",
-                  "lablekey": "entity-name-lbl",
-                  "columnwidth": 150,
-                  "seqno": 8,
-                  "masterid": "",
-                  "controltype": "textbox",
-                  "attrtype": "text",
-                  "currencytype": null,
-                  "api_name": "RouteProgress",
-                  "visible": true,
-                  "displayapiname": "RouteProgress",
-                  "inlineeditable": null,
-                  "istitle": false,
-                  "isdate": false,
-                  "islookup": false
-                },
-
-                {
-                  "id": "productlist109",
-                  "name": "Optimized",
-                  "lablekey": "entity-name-lbl",
-                  "columnwidth": 100,
-                  "seqno": 9,
-                  "masterid": "",
-                  "controltype": "textbox",
-                  "attrtype": "text",
-                  "currencytype": null,
-                  "api_name": "Optimized",
-                  "visible": true,
-                  "displayapiname": "Optimized",
-                  "inlineeditable": null,
-                  "istitle": false,
-                  "isdate": false,
-                  "islookup": false
-                },
-                {
                   "id": "productlist110",
-                  "name": "Truck Onload",
+                  "name": "Occurrence Type",
                   "lablekey": "entity-name-lbl",
                   "columnwidth": 100,
                   "seqno": 10,
@@ -16780,9 +17011,9 @@
                   "controltype": "textbox",
                   "attrtype": "text",
                   "currencytype": null,
-                  "api_name": "TruckOnload",
+                  "api_name": "Occurrencetype",
                   "visible": true,
-                  "displayapiname": "TruckOnload",
+                  "displayapiname": "Occurrencetype",
                   "inlineeditable": null,
                   "istitle": false,
                   "isdate": false,
@@ -16790,7 +17021,7 @@
                 },
                 {
                   "id": "productlist111",
-                  "name": "Total Route Value",
+                  "name": "Starts On",
                   "lablekey": "entity-name-lbl",
                   "columnwidth": 150,
                   "seqno": 11,
@@ -16798,9 +17029,9 @@
                   "controltype": "textbox",
                   "attrtype": "text",
                   "currencytype": null,
-                  "api_name": "TotalRouteValue",
+                  "api_name": "starts_on",
                   "visible": true,
-                  "displayapiname": "TotalRouteValue",
+                  "displayapiname": "starts_on",
                   "inlineeditable": null,
                   "istitle": false,
                   "isdate": false,
@@ -16808,7 +17039,7 @@
                 },
                 {
                   "id": "productlist112",
-                  "name": "Description",
+                  "name": "Next Occurs On",
                   "lablekey": "entity-name-lbl",
                   "columnwidth": 150,
                   "seqno": 12,
@@ -16816,9 +17047,27 @@
                   "controltype": "textbox",
                   "attrtype": "text",
                   "currencytype": null,
-                  "api_name": "Description",
+                  "api_name": "next_occurs_on",
                   "visible": true,
-                  "displayapiname": "Description",
+                  "displayapiname": "next_occurs_on",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist113",
+                  "name": "Ends On",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 100,
+                  "seqno": 13,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "ends_on",
+                  "visible": true,
+                  "displayapiname": "ends_on",
                   "inlineeditable": null,
                   "istitle": false,
                   "isdate": false,
@@ -16828,7 +17077,7 @@
               "filterfields": [
                 {
                   "id": "001",
-                  "name": "ICP Name",
+                  "name": "Route Name",
                   "lablekey": "entity-type-lbl",
                   "seqno": 5,
                   "filtercontroltype": "textbox",
@@ -16841,10 +17090,10 @@
                 },
                 {
                   "id": "003",
-                  "name": "Type",
+                  "name": "Route Date",
                   "lablekey": "lbl-Account-CreatedOn",
                   "seqno": 73,
-                  "filtercontroltype": "dropdown",
+                  "filtercontroltype": "datepicker",
                   "isquickfilter": true,
                   "api_name": "CreatedOn",
                   "islookup": true,
@@ -17047,9 +17296,45 @@
           "api_name": "SKU",
           "columnwidth": 150
         },
-
+        
+        {
+          "id": "productlist110",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "CurrentCost",
+          "columnwidth": 150
+        },
+        {
+          "id": "productlist111",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "CurrentCost",
+          "columnwidth": 150
+        },
         {
           "id": "productlist07",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "CurrentCost",
+          "columnwidth": 150
+        },
+        {
+          "id": "productlist112",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "CurrentCost",
+          "columnwidth": 150
+        },
+        {
+          "id": "productlist113",
           "seqno": 1,
           "masterid": "",
           "controltype": "textbox",
@@ -17068,60 +17353,56 @@
           "RouteID": "RT-2401",
           "RouteName": "Dallas North Loop",
           "RouteDate": "Mar 18, 2025",
-          "RouteType": "Organization",
-          "Truck": "TX-4521",
+          "RouteType": "John Miler",
+          "no_of_customers": "14",
           "RouteStage": "Draft",
           "RouteStatus": "Planned",
-          "RouteProgress": "0/12 (0%)",
-          "Optimized": "Yes",
-          "TruckOnload": "No",
-          "TotalRouteValue": "$14,250",
-          "Description": "Reached"
+          "Occurrencetype": "Bi-Weekly",
+          "starts_on": "01/11/2025",
+          "next_occurs_on": "08/11/2025",
+          "ends_on": "31/11/2025"
         },
         {
           "id": "2",
           "RouteID": "RT-2402",
           "RouteName": "Austin Retail Run",
           "RouteDate": "Mar 18, 2025",
-          "RouteType": "Organization",
-          "Truck": "TX-8893",
+          "RouteType": "Alex Carter",
+          "no_of_customers": "25",
           "RouteStage": "Confirmed",
           "RouteStatus": "Cancelled",
-          "RouteProgress": "0/18 (0%)",
-          "Optimized": "Yes",
-          "TruckOnload": "No",
-          "TotalRouteValue": "$19,800",
-          "Description": "Reached"
+          "Occurrencetype": "Weekly",
+          "starts_on": "01/11/2025",
+          "next_occurs_on": "08/11/2025",
+          "ends_on": "31/11/2025"
         },
         {
           "id": "3",
           "RouteID": "RT-2403",
           "RouteName": "Houston Downtown",
           "RouteDate": "Mar 18, 2025",
-          "RouteType": "Organization",
-          "Truck": "TX-3210",
+          "RouteType": "Maria Lopez",
+          "no_of_customers": "14",
           "RouteStage": "Locked",
           "RouteStatus": "Completed",
-          "RouteProgress": "0/16 (0%)",
-          "Optimized": "Yes",
-          "TruckOnload": "No",
-          "TotalRouteValue": "$91,250",
-          "Description": "Reached"
+          "Occurrencetype": "Bi-Weekly",
+          "starts_on": "01/11/2025",
+          "next_occurs_on": "08/11/2025",
+          "ends_on": "31/11/2025"
         },
         {
           "id": "4",
           "RouteID": "RT-2409",
           "RouteName": "Dallas Emergency",
           "RouteDate": "Mar 19, 2025",
-          "RouteType": "Organization",
-          "Truck": "TX-1927",
+          "RouteType": "David Brown",
+          "no_of_customers": "25",
           "RouteStage": "Closed",
           "RouteStatus": "In Transit",
-          "RouteProgress": "0/12 (0%)",
-          "Optimized": "Yes",
-          "TruckOnload": "No",
-          "TotalRouteValue": "$14,250",
-          "Description": "Reached"
+          "Occurrencetype": "Weekly",
+          "starts_on": "01/11/2025",
+          "next_occurs_on": "08/11/2025",
+          "ends_on": "31/11/2025"
         }
       ],
       "totalRecords": 3
