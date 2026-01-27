@@ -12421,24 +12421,6 @@
                   "islookup": false
                 },
                 {
-                  "id": "productlist03",
-                  "name": "Match Criteria",
-                  "lablekey": "entity-name-lbl",
-                  "columnwidth": 150,
-                  "seqno": 1,
-                  "masterid": "",
-                  "controltype": "textbox",
-                  "attrtype": "text",
-                  "currencytype": null,
-                  "api_name": "DisplayName",
-                  "visible": true,
-                  "displayapiname": "PaymentStatus",
-                  "inlineeditable": null,
-                  "istitle": false,
-                  "isdate": false,
-                  "islookup": false
-                },
-                {
                   "id": "productlist04",
                   "name": "Type",
                   "lablekey": "entity-name-lbl",
@@ -12580,16 +12562,6 @@
                   "type": "Horizontal",
                   "direction": "-",
                   "masterid": "91BC1850-B70A-4E9B-A65D-B9919FBA437C"
-                },
-                {
-                  "id": "4ea16646-f64b-4749-b61d-8fd9593cf591",
-                  "name": "Match Criteria",
-                  "labelkey": "contact_workflowstage_lbl",
-                  "seqno": null,
-                  "api_name": "Workflow Stage",
-                  "type": "Horizontal",
-                  "direction": "-",
-                  "masterid": "B347784C-2C93-4D3E-8C2F-F9C8BDFA5755"
                 }
               ]
             }
@@ -13026,7 +12998,7 @@
               "listfields": [
                 {
                   "id": "productlist00",
-                  "name": "ICP Name",
+                  "name": "Name",
                   "lablekey": "entity-name-lbl",
                   "columnwidth": 150,
                   "seqno": 1,
@@ -13039,60 +13011,6 @@
                   "displayapiname": "CustomerName",
                   "inlineeditable": null,
                   "istitle": true,
-                  "isdate": false,
-                  "islookup": false
-                },
-                {
-                  "id": "productlist02",
-                  "name": "Contacts",
-                  "lablekey": "entity-name-lbl",
-                  "columnwidth": 150,
-                  "seqno": 1,
-                  "masterid": "",
-                  "controltype": "textbox",
-                  "attrtype": "text",
-                  "currencytype": null,
-                  "api_name": "DisplayName",
-                  "visible": true,
-                  "displayapiname": "InvoiceID",
-                  "inlineeditable": null,
-                  "istitle": false,
-                  "isdate": false,
-                  "islookup": false
-                },
-                {
-                  "id": "productlist03",
-                  "name": "Match Criteria",
-                  "lablekey": "entity-name-lbl",
-                  "columnwidth": 150,
-                  "seqno": 1,
-                  "masterid": "",
-                  "controltype": "textbox",
-                  "attrtype": "text",
-                  "currencytype": null,
-                  "api_name": "DisplayName",
-                  "visible": true,
-                  "displayapiname": "PaymentStatus",
-                  "inlineeditable": null,
-                  "istitle": false,
-                  "isdate": false,
-                  "islookup": false
-                },
-                {
-                  "id": "productlist04",
-                  "name": "Type",
-                  "lablekey": "entity-name-lbl",
-                  "columnwidth": 150,
-                  "seqno": 1,
-                  "masterid": "",
-                  "controltype": "textbox",
-                  "attrtype": "text",
-                  "currencytype": null,
-                  "api_name": "DisplayName",
-                  "visible": true,
-                  "displayapiname": "PaymentMethod",
-                  "inlineeditable": null,
-                  "istitle": false,
                   "isdate": false,
                   "islookup": false
                 },
@@ -13127,42 +13045,6 @@
                   "api_name": "DisplayName",
                   "visible": true,
                   "displayapiname": "AssosiatedOppurtunity",
-                  "inlineeditable": null,
-                  "istitle": false,
-                  "isdate": false,
-                  "islookup": false
-                },
-                {
-                  "id": "productlist10",
-                  "name": "Updated On",
-                  "lablekey": "entity-name-lbl",
-                  "columnwidth": 100,
-                  "seqno": 1,
-                  "masterid": "",
-                  "controltype": "textbox",
-                  "attrtype": "text",
-                  "currencytype": null,
-                  "api_name": "CreatedOn",
-                  "visible": true,
-                  "displayapiname": "PaymentDueDate",
-                  "inlineeditable": null,
-                  "istitle": false,
-                  "isdate": false,
-                  "islookup": false
-                },
-                {
-                  "id": "productlist11",
-                  "name": "Status",
-                  "lablekey": "entity-name-lbl",
-                  "columnwidth": 150,
-                  "seqno": 1,
-                  "masterid": "",
-                  "controltype": "textbox",
-                  "attrtype": "text",
-                  "currencytype": null,
-                  "api_name": "CreatedOn",
-                  "visible": true,
-                  "displayapiname": "LastPaymentDate",
                   "inlineeditable": null,
                   "istitle": false,
                   "isdate": false,
@@ -13213,23 +13095,13 @@
               "groupbyfields": [
                 {
                   "id": "081880af-a45b-40ab-bfc1-c4ea60e7ce63",
-                  "name": "ICP Name",
+                  "name": "Created By",
                   "labelkey": "contact_workflowstatus_lbl",
                   "seqno": null,
                   "api_name": "Workflow Status",
                   "type": "Horizontal",
                   "direction": "-",
                   "masterid": "91BC1850-B70A-4E9B-A65D-B9919FBA437C"
-                },
-                {
-                  "id": "4ea16646-f64b-4749-b61d-8fd9593cf591",
-                  "name": "Match Criteria",
-                  "labelkey": "contact_workflowstage_lbl",
-                  "seqno": null,
-                  "api_name": "Workflow Stage",
-                  "type": "Horizontal",
-                  "direction": "-",
-                  "masterid": "B347784C-2C93-4D3E-8C2F-F9C8BDFA5755"
                 }
               ]
             }
@@ -13599,7 +13471,19 @@
           {
             "islookup": true,
             "masterid": "2005",
-            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Google Ads\"},{\"optionid\":\"002\",\"optionvalue\":\"Website Builder\"}]",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Active\"},{\"optionid\":\"002\",\"optionvalue\":\"Inactive\"},{\"optionid\":\"003\",\"optionvalue\":\"Draft\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "200600",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Healthcare\"},{\"optionid\":\"002\",\"optionvalue\":\"IT\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "200700",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Retail Banking\"}]",
             "groupvalue": {}
           },
           {
@@ -13647,7 +13531,7 @@
               "listfields": [
                 {
                   "id": "productlist00",
-                  "name": "ICP Name",
+                  "name": "File Name",
                   "lablekey": "entity-name-lbl",
                   "columnwidth": 150,
                   "seqno": 1,
@@ -13665,7 +13549,7 @@
                 },
                 {
                   "id": "productlist02",
-                  "name": "Contacts",
+                  "name": "Size",
                   "lablekey": "entity-name-lbl",
                   "columnwidth": 150,
                   "seqno": 1,
@@ -13676,24 +13560,6 @@
                   "api_name": "DisplayName",
                   "visible": true,
                   "displayapiname": "InvoiceID",
-                  "inlineeditable": null,
-                  "istitle": false,
-                  "isdate": false,
-                  "islookup": false
-                },
-                {
-                  "id": "productlist03",
-                  "name": "Match Criteria",
-                  "lablekey": "entity-name-lbl",
-                  "columnwidth": 150,
-                  "seqno": 1,
-                  "masterid": "",
-                  "controltype": "textbox",
-                  "attrtype": "text",
-                  "currencytype": null,
-                  "api_name": "DisplayName",
-                  "visible": true,
-                  "displayapiname": "PaymentStatus",
                   "inlineeditable": null,
                   "istitle": false,
                   "isdate": false,
@@ -13719,7 +13585,7 @@
                 },
                 {
                   "id": "productlist08",
-                  "name": "Created By",
+                  "name": "Today Leads",
                   "lablekey": "entity-name-lbl",
                   "columnwidth": 100,
                   "seqno": 1,
@@ -13737,7 +13603,7 @@
                 },
                 {
                   "id": "productlist09",
-                  "name": "Created On",
+                  "name": "Updated By",
                   "lablekey": "entity-name-lbl",
                   "columnwidth": 100,
                   "seqno": 1,
@@ -13773,7 +13639,7 @@
                 },
                 {
                   "id": "productlist11",
-                  "name": "Status",
+                  "name": "Import Status",
                   "lablekey": "entity-name-lbl",
                   "columnwidth": 150,
                   "seqno": 1,
@@ -13847,23 +13713,13 @@
               "groupbyfields": [
                 {
                   "id": "081880af-a45b-40ab-bfc1-c4ea60e7ce63",
-                  "name": "ICP Name",
+                  "name": "Size",
                   "labelkey": "contact_workflowstatus_lbl",
                   "seqno": null,
                   "api_name": "Workflow Status",
                   "type": "Horizontal",
                   "direction": "-",
                   "masterid": "91BC1850-B70A-4E9B-A65D-B9919FBA437C"
-                },
-                {
-                  "id": "4ea16646-f64b-4749-b61d-8fd9593cf591",
-                  "name": "Match Criteria",
-                  "labelkey": "contact_workflowstage_lbl",
-                  "seqno": null,
-                  "api_name": "Workflow Stage",
-                  "type": "Horizontal",
-                  "direction": "-",
-                  "masterid": "B347784C-2C93-4D3E-8C2F-F9C8BDFA5755"
                 }
               ]
             }
@@ -14265,6 +14121,55 @@
             "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Active\"}]",
             "masterid": "2011",
             "mastervalues": "[{\"optionid\":\"846ea8ab-2f17-46e9-b9d7-c27b7e62355a\",\"optionvalue\":\"Bmobile Day 3\"},{\"optionid\":\"3fc3013b-0ba1-4d81-9e8b-e4c694a7b6c4\",\"optionvalue\":\"Sports Academy\"},{\"optionid\":\"003\",\"optionvalue\":\"General\"}]",
+            "groupvalue": {}
+          },
+
+          {
+            "islookup": false,
+            "masterid": "30001",
+            "mastervalues": "[{\"optionid\":\"1\",\"optionvalue\":\"Open\"},{\"optionid\":\"2\",\"optionvalue\":\"Close\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "30002",
+            "mastervalues": "[{\"optionid\":\"1\",\"optionvalue\":\"Running\"},{\"optionid\":\"2\",\"optionvalue\":\"Draft\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "30003",
+            "mastervalues": "[{\"optionid\":\"1\",\"optionvalue\":\"ArcCRM\"},{\"optionid\":\"2\",\"optionvalue\":\"ArcOM\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "30004",
+            "mastervalues": "[{\"optionid\":\"1\",\"optionvalue\":\"Nurturing\"},{\"optionid\":\"2\",\"optionvalue\":\"Awareness\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "30005",
+            "mastervalues": "[{\"optionid\":\"1\",\"optionvalue\":\"Account\"},{\"optionid\":\"2\",\"optionvalue\":\"Lead\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "30006",
+            "mastervalues": "[{\"optionid\":\"1\",\"optionvalue\":\"Call\"},{\"optionid\":\"2\",\"optionvalue\":\"Email\"},{\"optionid\":\"2\",\"optionvalue\":\"Call & Email\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "30007",
+            "mastervalues": "[{\"optionid\":\"1\",\"optionvalue\":\"Call Sequence\"},{\"optionid\":\"2\",\"optionvalue\":\"Email Sequence\"},{\"optionid\":\"2\",\"optionvalue\":\"Call & Email Sequence\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": false,
+            "masterid": "30008",
+            "mastervalues": "[{\"optionid\":\"1\",\"optionvalue\":\"Short Touch\"},{\"optionid\":\"2\",\"optionvalue\":\"Medium Touch\"},{\"optionid\":\"2\",\"optionvalue\":\"Long Touch\"}]",
             "groupvalue": {}
           }
         ]
@@ -15379,187 +15284,185 @@
   },
   "addcustomerpopup_listdata": {
     "result": {
-      
-  "data": [
-    {
-      "CustomerName": "Jessica",
-      "InvoiceID": "INV-35026",
-      "PaymentStatus": "Pending",
-      "PaymentMethod": "Not Set",
-      "AssociatedContact": "jessica@yahoo.com",
-      "PaymentDueDate": "",
-      "LastPaymentDate": "",
-      "DisplayName": "Jessica",
-      "AssociatedOpportunity": ""
-    },
-    {
-      "CustomerName": "Joviya",
-      "InvoiceID": "INV-35027",
-      "PaymentStatus": "Pending",
-      "PaymentMethod": "Not Set",
-      "AssociatedContact": "joviya@gmail.com",
-      "PaymentDueDate": "",
-      "LastPaymentDate": "",
-      "DisplayName": "Joviya",
-      "AssociatedOpportunity": ""
-    },
-    {
-      "CustomerName": "Olivia Martin",
-      "InvoiceID": "INV-35032",
-      "PaymentStatus": "Pending",
-      "PaymentMethod": "Not Set",
-      "AssociatedContact": "jessqicaq@yahoo.com",
-      "PaymentDueDate": "",
-      "LastPaymentDate": "",
-      "DisplayName": "Olivia Martin",
-      "AssociatedOpportunity": ""
-    },
-    {
-      "CustomerName": "Emma Levis",
-      "InvoiceID": "INV-35033",
-      "PaymentStatus": "Pending",
-      "PaymentMethod": "Not Set",
-      "AssociatedContact": "lindaaz@outlook.com",
-      "PaymentDueDate": "",
-      "LastPaymentDate": "",
-      "DisplayName": "Emma Levis",
-      "AssociatedOpportunity": ""
-    },
-    {
-      "CustomerName": "Neera B",
-      "InvoiceID": "INV-35020",
-      "PaymentStatus": "Pending",
-      "PaymentMethod": "Not Set",
-      "AssociatedContact": "neera@gmail.com",
-      "PaymentDueDate": "",
-      "LastPaymentDate": "",
-      "DisplayName": "Neera B",
-      "AssociatedOpportunity": ""
-    },
-    {
-      "CustomerName": "Michael Robert",
-      "InvoiceID": "INV-35030",
-      "PaymentStatus": "Pending",
-      "PaymentMethod": "Not Set",
-      "AssociatedContact": "joviyal@gmail.com",
-      "PaymentDueDate": "",
-      "LastPaymentDate": "",
-      "DisplayName": "Michael Robert",
-      "AssociatedOpportunity": ""
-    },
-    {
-      "CustomerName": "Emily carter",
-      "InvoiceID": "INV-35031",
-      "PaymentStatus": "Pending",
-      "PaymentMethod": "Not Set",
-      "AssociatedContact": "lindaz@outlook.com",
-      "PaymentDueDate": "",
-      "LastPaymentDate": "",
-      "DisplayName": "Emily carter",
-      "AssociatedOpportunity": ""
-    },
-    {
-      "CustomerName": "John Anderson",
-      "InvoiceID": "INV-35029",
-      "PaymentStatus": "Pending",
-      "PaymentMethod": "Not Set",
-      "AssociatedContact": "jessicaq@yahoo.com",
-      "PaymentDueDate": "",
-      "LastPaymentDate": "",
-      "DisplayName": "John Anderson",
-      "AssociatedOpportunity": ""
-    },
-    {
-      "CustomerName": "nathiya B",
-      "InvoiceID": "INV-35019",
-      "PaymentStatus": "Pending",
-      "PaymentMethod": "Not Set",
-      "AssociatedContact": "nathiua@gmail.com",
-      "PaymentDueDate": "",
-      "LastPaymentDate": "",
-      "DisplayName": "nathiya B",
-      "AssociatedOpportunity": ""
-    },
-    {
-      "CustomerName": "Linda",
-      "InvoiceID": "INV-35028",
-      "PaymentStatus": "Pending",
-      "PaymentMethod": "Not Set",
-      "AssociatedContact": "linda@outlook.com",
-      "PaymentDueDate": "",
-      "LastPaymentDate": "",
-      "DisplayName": "Linda",
-      "AssociatedOpportunity": ""
-    },
-    {
-      "CustomerName": "Sartin",
-      "InvoiceID": "INV-35023",
-      "PaymentStatus": "Pending",
-      "PaymentMethod": "Not Set",
-      "AssociatedContact": "linda@gmail.com",
-      "PaymentDueDate": "",
-      "LastPaymentDate": "",
-      "DisplayName": "Sartin",
-      "AssociatedOpportunity": ""
-    },
-    {
-      "CustomerName": "Jovia",
-      "InvoiceID": "INV-35025",
-      "PaymentStatus": "Pending",
-      "PaymentMethod": "Not Set",
-      "AssociatedContact": "jovia@yahoo.com",
-      "PaymentDueDate": "",
-      "LastPaymentDate": "",
-      "DisplayName": "Jovia",
-      "AssociatedOpportunity": ""
-    },
-    {
-      "CustomerName": "Esla",
-      "InvoiceID": "INV-35024",
-      "PaymentStatus": "Pending",
-      "PaymentMethod": "Not Set",
-      "AssociatedContact": "esla@outlook.com",
-      "PaymentDueDate": "",
-      "LastPaymentDate": "",
-      "DisplayName": "Esla",
-      "AssociatedOpportunity": ""
-    },
-    {
-      "CustomerName": "Will Byers",
-      "InvoiceID": "INV-35007",
-      "PaymentStatus": "Pending",
-      "PaymentMethod": "Not Set",
-      "AssociatedContact": "james@gmail.com",
-      "PaymentDueDate": "",
-      "LastPaymentDate": "",
-      "DisplayName": "Will Byers",
-      "AssociatedOpportunity": ""
-    },
-    {
-      "CustomerName": "json server",
-      "InvoiceID": "INV-35009",
-      "PaymentStatus": "Pending",
-      "PaymentMethod": "Not Set",
-      "AssociatedContact": "yoy@gmail.com",
-      "PaymentDueDate": "",
-      "LastPaymentDate": "",
-      "DisplayName": "json server",
-      "AssociatedOpportunity": ""
-    },
-    {
-      "CustomerName": "tent pop",
-      "InvoiceID": "INV-35012",
-      "PaymentStatus": "Pending",
-      "PaymentMethod": "Not Set",
-      "AssociatedContact": "sd@gmail.com",
-      "PaymentDueDate": "",
-      "LastPaymentDate": "",
-      "DisplayName": "tent pop",
-      "AssociatedOpportunity": ""
-    }
-  ],
-  "totalRecords": 16
-
+      "data": [
+        {
+          "CustomerName": "Jessica",
+          "InvoiceID": "INV-35026",
+          "PaymentStatus": "Pending",
+          "PaymentMethod": "Not Set",
+          "AssociatedContact": "jessica@yahoo.com",
+          "PaymentDueDate": "",
+          "LastPaymentDate": "",
+          "DisplayName": "Jessica",
+          "AssociatedOpportunity": ""
+        },
+        {
+          "CustomerName": "Joviya",
+          "InvoiceID": "INV-35027",
+          "PaymentStatus": "Pending",
+          "PaymentMethod": "Not Set",
+          "AssociatedContact": "joviya@gmail.com",
+          "PaymentDueDate": "",
+          "LastPaymentDate": "",
+          "DisplayName": "Joviya",
+          "AssociatedOpportunity": ""
+        },
+        {
+          "CustomerName": "Olivia Martin",
+          "InvoiceID": "INV-35032",
+          "PaymentStatus": "Pending",
+          "PaymentMethod": "Not Set",
+          "AssociatedContact": "jessqicaq@yahoo.com",
+          "PaymentDueDate": "",
+          "LastPaymentDate": "",
+          "DisplayName": "Olivia Martin",
+          "AssociatedOpportunity": ""
+        },
+        {
+          "CustomerName": "Emma Levis",
+          "InvoiceID": "INV-35033",
+          "PaymentStatus": "Pending",
+          "PaymentMethod": "Not Set",
+          "AssociatedContact": "lindaaz@outlook.com",
+          "PaymentDueDate": "",
+          "LastPaymentDate": "",
+          "DisplayName": "Emma Levis",
+          "AssociatedOpportunity": ""
+        },
+        {
+          "CustomerName": "Neera B",
+          "InvoiceID": "INV-35020",
+          "PaymentStatus": "Pending",
+          "PaymentMethod": "Not Set",
+          "AssociatedContact": "neera@gmail.com",
+          "PaymentDueDate": "",
+          "LastPaymentDate": "",
+          "DisplayName": "Neera B",
+          "AssociatedOpportunity": ""
+        },
+        {
+          "CustomerName": "Michael Robert",
+          "InvoiceID": "INV-35030",
+          "PaymentStatus": "Pending",
+          "PaymentMethod": "Not Set",
+          "AssociatedContact": "joviyal@gmail.com",
+          "PaymentDueDate": "",
+          "LastPaymentDate": "",
+          "DisplayName": "Michael Robert",
+          "AssociatedOpportunity": ""
+        },
+        {
+          "CustomerName": "Emily carter",
+          "InvoiceID": "INV-35031",
+          "PaymentStatus": "Pending",
+          "PaymentMethod": "Not Set",
+          "AssociatedContact": "lindaz@outlook.com",
+          "PaymentDueDate": "",
+          "LastPaymentDate": "",
+          "DisplayName": "Emily carter",
+          "AssociatedOpportunity": ""
+        },
+        {
+          "CustomerName": "John Anderson",
+          "InvoiceID": "INV-35029",
+          "PaymentStatus": "Pending",
+          "PaymentMethod": "Not Set",
+          "AssociatedContact": "jessicaq@yahoo.com",
+          "PaymentDueDate": "",
+          "LastPaymentDate": "",
+          "DisplayName": "John Anderson",
+          "AssociatedOpportunity": ""
+        },
+        {
+          "CustomerName": "nathiya B",
+          "InvoiceID": "INV-35019",
+          "PaymentStatus": "Pending",
+          "PaymentMethod": "Not Set",
+          "AssociatedContact": "nathiua@gmail.com",
+          "PaymentDueDate": "",
+          "LastPaymentDate": "",
+          "DisplayName": "nathiya B",
+          "AssociatedOpportunity": ""
+        },
+        {
+          "CustomerName": "Linda",
+          "InvoiceID": "INV-35028",
+          "PaymentStatus": "Pending",
+          "PaymentMethod": "Not Set",
+          "AssociatedContact": "linda@outlook.com",
+          "PaymentDueDate": "",
+          "LastPaymentDate": "",
+          "DisplayName": "Linda",
+          "AssociatedOpportunity": ""
+        },
+        {
+          "CustomerName": "Sartin",
+          "InvoiceID": "INV-35023",
+          "PaymentStatus": "Pending",
+          "PaymentMethod": "Not Set",
+          "AssociatedContact": "linda@gmail.com",
+          "PaymentDueDate": "",
+          "LastPaymentDate": "",
+          "DisplayName": "Sartin",
+          "AssociatedOpportunity": ""
+        },
+        {
+          "CustomerName": "Jovia",
+          "InvoiceID": "INV-35025",
+          "PaymentStatus": "Pending",
+          "PaymentMethod": "Not Set",
+          "AssociatedContact": "jovia@yahoo.com",
+          "PaymentDueDate": "",
+          "LastPaymentDate": "",
+          "DisplayName": "Jovia",
+          "AssociatedOpportunity": ""
+        },
+        {
+          "CustomerName": "Esla",
+          "InvoiceID": "INV-35024",
+          "PaymentStatus": "Pending",
+          "PaymentMethod": "Not Set",
+          "AssociatedContact": "esla@outlook.com",
+          "PaymentDueDate": "",
+          "LastPaymentDate": "",
+          "DisplayName": "Esla",
+          "AssociatedOpportunity": ""
+        },
+        {
+          "CustomerName": "Will Byers",
+          "InvoiceID": "INV-35007",
+          "PaymentStatus": "Pending",
+          "PaymentMethod": "Not Set",
+          "AssociatedContact": "james@gmail.com",
+          "PaymentDueDate": "",
+          "LastPaymentDate": "",
+          "DisplayName": "Will Byers",
+          "AssociatedOpportunity": ""
+        },
+        {
+          "CustomerName": "json server",
+          "InvoiceID": "INV-35009",
+          "PaymentStatus": "Pending",
+          "PaymentMethod": "Not Set",
+          "AssociatedContact": "yoy@gmail.com",
+          "PaymentDueDate": "",
+          "LastPaymentDate": "",
+          "DisplayName": "json server",
+          "AssociatedOpportunity": ""
+        },
+        {
+          "CustomerName": "tent pop",
+          "InvoiceID": "INV-35012",
+          "PaymentStatus": "Pending",
+          "PaymentMethod": "Not Set",
+          "AssociatedContact": "sd@gmail.com",
+          "PaymentDueDate": "",
+          "LastPaymentDate": "",
+          "DisplayName": "tent pop",
+          "AssociatedOpportunity": ""
+        }
+      ],
+      "totalRecords": 16
     }
   },
   "addcustomerpopupgroup_getlookupdatabyid": {
@@ -17296,7 +17199,7 @@
           "api_name": "SKU",
           "columnwidth": 150
         },
-        
+
         {
           "id": "productlist110",
           "seqno": 1,
