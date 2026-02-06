@@ -15234,15 +15234,15 @@
               ],
               "filterfields": [
                 {
-                  "id": "001",
-                  "name": "Lifecycle Status",
+                  "id": "01",
+                  "name": "Lead Name",
                   "lablekey": "entity-type-lbl",
                   "seqno": 72,
-                  "filtercontroltype": "dropdown",
+                  "filtercontroltype": "textbox",
                   "isquickfilter": true,
                   "api_name": "EntityType",
                   "islookup": true,
-                  "masterid": "3001",
+                  "masterid": "",
                   "apioutputskey": "optionid",
                   "apioutputvalue": "optionvalue"
                 },
@@ -15259,7 +15259,6 @@
                   "apioutputskey": "",
                   "apioutputvalue": ""
                 },
-
                 {
                   "id": "003",
                   "name": "Job Title",
@@ -15273,6 +15272,20 @@
                   "apioutputskey": "",
                   "apioutputvalue": ""
                 },
+                {
+                  "id": "001",
+                  "name": "Lifecycle Status",
+                  "lablekey": "entity-type-lbl",
+                  "seqno": 72,
+                  "filtercontroltype": "dropdown",
+                  "isquickfilter": true,
+                  "api_name": "EntityType",
+                  "islookup": true,
+                  "masterid": "3001",
+                  "apioutputskey": "optionid",
+                  "apioutputvalue": "optionvalue"
+                },
+
                 {
                   "id": "004",
                   "name": "Time Zone",
@@ -15336,6 +15349,16 @@
       "isdefault": true,
       "last_accessed_time": null,
       "filters": [
+           {
+          "id": "01",
+          "filterid": "Lifecylce _Status",
+          "filterdisplayname": "Product ID",
+          "filtercontroltype": "Workflow",
+          "defaultvalue": "",
+          "filtercategory": "quick",
+          "isquickfilter": true,
+          "defaultvalall": ""
+        },
         {
           "id": "001",
           "filterid": "Lifecylce _Status",
@@ -15998,6 +16021,19 @@
               ],
               "filterfields": [
                 {
+                  "id": "01",
+                  "name": "Customer Name",
+                  "lablekey": "entity-type-lbl",
+                  "seqno": 5,
+                  "filtercontroltype": "textbox",
+                  "isquickfilter": true,
+                  "api_name": "EntityType",
+                  "islookup": false,
+                  "masterid": "",
+                  "apioutputskey": "optionid",
+                  "apioutputvalue": "optionvalue"
+                },
+                {
                   "id": "001",
                   "name": "Customer Group",
                   "lablekey": "entity-type-lbl",
@@ -16024,19 +16060,6 @@
                   "apioutputvalue": "optionvalue"
                 },
                 {
-                  "id": "003",
-                  "name": "Customer Type",
-                  "lablekey": "entity-type-lbl",
-                  "seqno": 5,
-                  "filtercontroltype": "dropdown",
-                  "isquickfilter": true,
-                  "api_name": "EntityType",
-                  "islookup": false,
-                  "masterid": "202",
-                  "apioutputskey": "optionid",
-                  "apioutputvalue": "optionvalue"
-                },
-                {
                   "id": "004",
                   "name": "Customer Zone",
                   "lablekey": "entity-type-lbl",
@@ -16052,6 +16075,19 @@
                 {
                   "id": "005",
                   "name": "Industry",
+                  "lablekey": "entity-type-lbl",
+                  "seqno": 5,
+                  "filtercontroltype": "dropdown",
+                  "isquickfilter": true,
+                  "api_name": "EntityType",
+                  "islookup": false,
+                  "masterid": "202",
+                  "apioutputskey": "optionid",
+                  "apioutputvalue": "optionvalue"
+                },
+                {
+                  "id": "003",
+                  "name": "Customer Type",
                   "lablekey": "entity-type-lbl",
                   "seqno": 5,
                   "filtercontroltype": "dropdown",
@@ -17014,7 +17050,7 @@
             "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Active\"},{\"optionid\":\"002\",\"optionvalue\":\"Inactive\"},{\"optionid\":\"003\",\"optionvalue\":\"Draft\"}]",
             "groupvalue": {}
           },
-           {
+          {
             "islookup": true,
             "masterid": "2010",
             "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"Active\"},{\"optionid\":\"603\",\"optionvalue\":\"Inactive\"},{\"optionid\":\"604\",\"optionvalue\":\"Draft\"}]",
@@ -17255,7 +17291,7 @@
                   "apioutputskey": "",
                   "apioutputvalue": ""
                 },
-                
+
                 {
                   "id": "004",
                   "name": "Route Status",
@@ -17269,11 +17305,9 @@
                   "apioutputskey": "",
                   "apioutputvalue": ""
                 }
-                
-                
               ],
               "groupbyfields": [
-                  {
+                {
                   "id": "4ea16646-f64b-4749-b61d-8fd9593cf591",
                   "name": "Occurrence Type",
                   "labelkey": "contact_workflowstage_lbl",
@@ -17293,7 +17327,6 @@
                   "direction": "-",
                   "masterid": "91BC1850-B70A-4E9B-A65D-B9919FBA437C"
                 }
-              
               ]
             }
           }
@@ -17512,7 +17545,7 @@
           "RouteName": "Dallas North Loop",
           "RouteDate": "Mar 18, 2025",
           "RouteType": "John Miler",
-          "no_of_customers": "14",
+          "no_of_customers": "8",
           "RouteStage": "Draft",
           "RouteStatus": "Planned",
           "Occurrencetype": "Weekly",
@@ -17526,13 +17559,13 @@
           "RouteName": "Austin Retail Run",
           "RouteDate": "Mar 18, 2025",
           "RouteType": "Alex Carter",
-          "no_of_customers": "25",
+          "no_of_customers": "2",
           "RouteStage": "Confirmed",
           "RouteStatus": "Cancelled",
           "Occurrencetype": "Weekly",
-          "starts_on": "01/11/2025",
-          "next_occurs_on": "08/11/2025",
-          "ends_on": "31/11/2025"
+          "starts_on": "11/12/2025",
+          "next_occurs_on": "09/1/2026",
+          "ends_on": "30/12/2025"
         },
         {
           "id": "3",
@@ -17540,13 +17573,13 @@
           "RouteName": "Houston Downtown",
           "RouteDate": "Mar 18, 2025",
           "RouteType": "Maria Lopez",
-          "no_of_customers": "14",
+          "no_of_customers": "9",
           "RouteStage": "Locked",
           "RouteStatus": "Completed",
           "Occurrencetype": "Weekly",
-          "starts_on": "01/11/2025",
-          "next_occurs_on": "08/11/2025",
-          "ends_on": "31/11/2025"
+          "starts_on": "21/10/2025",
+          "next_occurs_on": "25/12/2025",
+          "ends_on": "5/1/2026"
         },
         {
           "id": "4",
@@ -17554,13 +17587,13 @@
           "RouteName": "Dallas Emergency",
           "RouteDate": "Mar 19, 2025",
           "RouteType": "David Brown",
-          "no_of_customers": "25",
+          "no_of_customers": "5",
           "RouteStage": "Closed",
           "RouteStatus": "Draft",
           "Occurrencetype": "Weekly",
-          "starts_on": "01/11/2025",
-          "next_occurs_on": "08/11/2025",
-          "ends_on": "31/11/2025"
+          "starts_on": "26/12/2025",
+          "next_occurs_on": "04/2/2026",
+          "ends_on": "1/2/2026"
         }
       ],
       "totalRecords": 3
