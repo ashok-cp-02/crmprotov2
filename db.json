@@ -17365,33 +17365,6 @@
                   "masterid": "2003",
                   "apioutputskey": "",
                   "apioutputvalue": ""
-                },
-                {
-                  "id": "006",
-                  "name": "Occurance Type",
-                  "lablekey": "lbl-Account-CreatedOn",
-                  "seqno": 73,
-                  "filtercontroltype": "multiselect",
-                  "isquickfilter": false,
-                  "api_name": "CreatedOn",
-                  "islookup": true,
-                  "masterid": "2011",
-                  "apioutputskey": "",
-                  "apioutputvalue": ""
-                },
-
-                {
-                  "id": "004",
-                  "name": "Route Status",
-                  "lablekey": "lbl-Account-CreatedOn",
-                  "seqno": 73,
-                  "filtercontroltype": "multiselect",
-                  "isquickfilter": false,
-                  "api_name": "CreatedOn",
-                  "islookup": true,
-                  "masterid": "2010",
-                  "apioutputskey": "",
-                  "apioutputvalue": ""
                 }
               ],
               "groupbyfields": [
@@ -17408,6 +17381,16 @@
                 {
                   "id": "081880af-a45b-40ab-bfc1-c4ea60e7ce63",
                   "name": "Route Status ",
+                  "labelkey": "contact_workflowstatus_lbl",
+                  "seqno": null,
+                  "api_name": "Workflow Status",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "91BC1850-B70A-4E9B-A65D-B9919FBA437C"
+                },
+                {
+                  "id": "081880af-a45b-40ab-bfc1-c4ea60e7ce69",
+                  "name": "No Of Customers",
                   "labelkey": "contact_workflowstatus_lbl",
                   "seqno": null,
                   "api_name": "Workflow Status",
