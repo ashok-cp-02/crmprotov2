@@ -607,16 +607,16 @@
       "data": [
         {
           "sequencename": "Sequence with entities",
-          "sequencetype": "Standard Sequence",
+          "sequencetype": "Short Touch Model",
           "stepcount": "7",
           "sequencedelaydays": "14",
           "lastmodifiedon": "11/13/2024",
           "Status": "Active",
-          "sequenceentity": "Contact"
+          "sequenceentity": "Lead"
         },
         {
           "sequencename": "Onboarding Flow",
-          "sequencetype": "Standard Sequence",
+          "sequencetype": "Medium Touch Model",
           "stepcount": "8",
           "sequencedelaydays": "10",
           "lastmodifiedon": "11/13/2024",
@@ -625,61 +625,61 @@
         },
         {
           "sequencename": "Sales Pipeline",
-          "sequencetype": "Standard Sequence",
+          "sequencetype": "Long Touch Model",
           "stepcount": "4",
           "sequencedelaydays": "6",
           "lastmodifiedon": "11/13/2024",
           "Status": "Active",
-          "sequenceentity": "Contact"
+          "sequenceentity": "Opportunity"
         },
         {
           "sequencename": "Lead Conversation sequence",
-          "sequencetype": "Standard Sequence",
+          "sequencetype": "Short Touch Model",
           "stepcount": "7",
           "sequencedelaydays": "10",
           "lastmodifiedon": "11/13/2024",
           "Status": "Inactive",
-          "sequenceentity": "Account"
+          "sequenceentity": "Lead"
         },
         {
           "sequencename": "Add New sequence contact",
-          "sequencetype": "Standard Sequence",
+          "sequencetype": "Medium Touch Model",
           "stepcount": "7",
           "sequencedelaydays": "14",
           "lastmodifiedon": "11/13/2024",
           "Status": "Active",
-          "sequenceentity": "Contact"
+          "sequenceentity": "Account"
         },
         {
           "sequencename": "step sequence",
-          "sequencetype": "Standard Sequence",
+          "sequencetype": "Long Touch Model",
           "stepcount": "8",
           "sequencedelaydays": "10",
           "lastmodifiedon": "11/13/2024",
           "Status": "Inactive",
-          "sequenceentity": "Account"
+          "sequenceentity": "Opportunity"
         },
         {
           "sequencename": "dev1",
-          "sequencetype": "Standard Sequence",
+          "sequencetype": "Short Touch Model",
           "stepcount": "4",
           "sequencedelaydays": "6",
           "lastmodifiedon": "11/13/2024",
           "Status": "Active",
-          "sequenceentity": "Contact"
+          "sequenceentity": "Lead"
         },
         {
           "sequencename": "Test2",
-          "sequencetype": "Standard Sequence",
+          "sequencetype": "Medium Touch Model",
           "stepcount": "7",
           "sequencedelaydays": "10",
           "lastmodifiedon": "11/13/2024",
           "Status": "Inactive",
-          "sequenceentity": "Account"
+          "sequenceentity": "Opportunity"
         },
         {
           "sequencename": "dan",
-          "sequencetype": "Standard Sequence",
+          "sequencetype": "Long Touch Model",
           "stepcount": "2",
           "sequencedelaydays": "10",
           "lastmodifiedon": "12/11/2024",
@@ -5807,7 +5807,7 @@
           {
             "islookup": false,
             "masterid": "8056",
-            "mastervalues": "[{\"optionid\":\"611\",\"optionvalue\":\"Standard Sequence\"}]",
+            "mastervalues": "[{\"optionid\":\"611\",\"optionvalue\":\"Short Touch Model\"},{\"optionid\":\"612\",\"optionvalue\":\"Medium Touch Model\"},{\"optionid\":\"613\",\"optionvalue\":\"Long Touch Model\"}]",
             "groupvalue": {}
           },
           {
@@ -15065,13 +15065,13 @@
           {
             "islookup": true,
             "masterid": "3002",
-            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Website\"},{\"optionid\":\"001\",\"optionvalue\":\"Referral\"}]",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Website\"},{\"optionid\":\"002\",\"optionvalue\":\"Referral\"}]",
             "groupvalue": {}
           },
           {
             "islookup": true,
             "masterid": "3003",
-            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Eastern (EDT) - NJ\"},{\"optionid\":\"001\",\"optionvalue\":\"Eastern (EDT) - DC\"},{\"optionid\":\"001\",\"optionvalue\":\"Eastern (EDT) - CT\"}]",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Eastern (EDT) - NJ\"},{\"optionid\":\"002\",\"optionvalue\":\"Eastern (EDT) - DC\"},{\"optionid\":\"003\",\"optionvalue\":\"Eastern (EDT) - CT\"}]",
             "groupvalue": {}
           }
         ]
@@ -17620,9 +17620,9 @@
           "RouteStage": "Draft",
           "RouteStatus": "Planned",
           "Occurrencetype": "Weekly",
-          "starts_on": "01/11/2025",
-          "next_occurs_on": "08/11/2025",
-          "ends_on": "31/11/2025"
+          "starts_on": "01/02/2026",
+          "next_occurs_on": "20/02/2026",
+          "ends_on": "13/03/2026"
         },
         {
           "id": "2",
@@ -17634,9 +17634,9 @@
           "RouteStage": "Confirmed",
           "RouteStatus": "Cancelled",
           "Occurrencetype": "Weekly",
-          "starts_on": "11/12/2025",
-          "next_occurs_on": "09/1/2026",
-          "ends_on": "30/12/2025"
+          "starts_on": "05/03/2026",
+          "next_occurs_on": "25/03/2026",
+          "ends_on": "15/04/2026"
         },
         {
           "id": "3",
@@ -17648,9 +17648,9 @@
           "RouteStage": "Locked",
           "RouteStatus": "Completed",
           "Occurrencetype": "Weekly",
-          "starts_on": "21/10/2025",
-          "next_occurs_on": "25/12/2025",
-          "ends_on": "5/1/2026"
+          "starts_on": "05/02/2026",
+          "next_occurs_on": "25/02/2026",
+          "ends_on": "17/03/2026"
         },
         {
           "id": "4",
@@ -17662,9 +17662,9 @@
           "RouteStage": "Closed",
           "RouteStatus": "Draft",
           "Occurrencetype": "Weekly",
-          "starts_on": "26/12/2025",
-          "next_occurs_on": "04/2/2026",
-          "ends_on": "1/2/2026"
+          "starts_on": "21/03/2026",
+          "next_occurs_on": "11/04/2026",
+          "ends_on": "01/05/2026"
         }
       ],
       "totalRecords": 3
