@@ -16637,7 +16637,7 @@
           {
             "islookup": false,
             "masterid": "9001",
-            "mastervalues": "[{\"optionid\":\"19000510734\",\"optionvalue\":\"Completed\"},{\"optionid\":\"19000510735\",\"optionvalue\":\"InProgress\"},{\"optionid\":\"19000510739\",\"optionvalue\":\"Yet to start\"}]",
+            "mastervalues": "[{\"optionid\":\"19000510739\",\"optionvalue\":\"Yet to Start\"},{\"optionid\":\"19000510735\",\"optionvalue\":\"InProgress\"},{\"optionid\":\"19000510734\",\"optionvalue\":\"Completed\"},{\"optionid\":\"19000510740\",\"optionvalue\":\"Save As Draft\"}]",
             "groupvalue": {}
           },
           {
@@ -16649,7 +16649,7 @@
           {
             "islookup": false,
             "masterid": "9003",
-            "mastervalues": "[{\"optionid\":\"19000510734\",\"optionvalue\":\"Horizon Scribe\"},{\"optionid\":\"19000510735\",\"optionvalue\":\"Quantum Byte\"},{\"optionid\":\"19000510736\",\"optionvalue\":\"Stardust Ledger\"},{\"optionid\":\"19000510739\",\"optionvalue\":\"John Willam\"}]",
+            "mastervalues": "[{\"optionid\":\"19000510734\",\"optionvalue\":\"William\"},{\"optionid\":\"19000510735\",\"optionvalue\":\"DRS\"},{\"optionid\":\"19000510736\",\"optionvalue\":\"Gopinath\"},{\"optionid\":\"19000510739\",\"optionvalue\":\"Kiran\"},{\"optionid\":\"19000510740\",\"optionvalue\":\"Ravishankar\"},{\"optionid\":\"19000510741\",\"optionvalue\":\"Santhosh\"},{\"optionid\":\"19000510742\",\"optionvalue\":\"Senthil\"}]",
             "groupvalue": {}
           },
           {
@@ -17149,7 +17149,20 @@
             "masterid": "2011",
             "mastervalues": "[{\"optionid\":\"602\",\"optionvalue\":\"Daily\"},{\"optionid\":\"603\",\"optionvalue\":\"Weekly\"},{\"optionid\":\"604\",\"optionvalue\":\"Monthly\"}]",
             "groupvalue": {}
-          }
+          },
+          {
+          "islookup": true,
+          "masterid": "3003",
+          "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Yet to Start\"},{\"optionid\":\"002\",\"optionvalue\":\"In Progress\"},{\"optionid\":\"003\",\"optionvalue\":\"Completed\"},{\"optionid\":\"004\",\"optionvalue\":\"Save As Draft\"}]",
+          "groupvalue": {}
+        },
+          {
+          "islookup": false,
+          "masterid": "3004",
+          "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Daily\"},{\"optionid\":\"002\",\"optionvalue\":\"Weekly\"},{\"optionid\":\"003\",\"optionvalue\":\"Monthly\"}]",
+          "groupvalue": {}
+        }
+        
         ]
       },
       "messages": [],
@@ -17324,6 +17337,78 @@
                   "istitle": false,
                   "isdate": false,
                   "islookup": false
+                },
+                {
+                  "id": "productlist114",
+                  "name": "Start Location",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 100,
+                  "seqno": 14,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "start_location",
+                  "visible": true,
+                  "displayapiname": "start_location",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist115",
+                  "name": "Route Type",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 100,
+                  "seqno": 15,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "route_type",
+                  "visible": true,
+                  "displayapiname": "route_type",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist116",
+                  "name": "Route Description",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 100,
+                  "seqno": 16,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "route_description",
+                  "visible": true,
+                  "displayapiname": "route_description",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "productlist117",
+                  "name": "Sales Rep",
+                  "lablekey": "entity-name-lbl",
+                  "columnwidth": 100,
+                  "seqno": 17,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "sale_srep",
+                  "visible": true,
+                  "displayapiname": "sales_rep",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
                 }
               ],
               "filterfields": [
@@ -17354,10 +17439,23 @@
                   "apioutputvalue": "optionvalue"
                 },
                 {
+                  "id": "006",
+                  "name": "Route Status",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 73,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": true,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "3003",
+                  "apioutputskey": "optionid",
+                  "apioutputvalue": "optionvalue"
+                },
+                {
                   "id": "003",
                   "name": "Start On",
                   "lablekey": "lbl-Account-CreatedOn",
-                  "seqno": 73,
+                  "seqno": 74,
                   "filtercontroltype": "datepicker",
                   "isquickfilter": true,
                   "api_name": "CreatedOn",
@@ -17365,6 +17463,20 @@
                   "masterid": "2003",
                   "apioutputskey": "",
                   "apioutputvalue": ""
+                },
+                 
+                {
+                  "id": "007",
+                  "name": "Occurrence Type",
+                  "lablekey": "lbl-Account-CreatedOn",
+                  "seqno": 75,
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": false,
+                  "api_name": "CreatedOn",
+                  "islookup": true,
+                  "masterid": "3004",
+                  "apioutputskey": "optionid",
+                  "apioutputvalue": "optionvalue"
                 }
               ],
               "groupbyfields": [
@@ -17622,7 +17734,11 @@
           "Occurrencetype": "Weekly",
           "starts_on": "01/02/2026",
           "next_occurs_on": "20/02/2026",
-          "ends_on": "13/03/2026"
+          "ends_on": "13/03/2026",
+          "start_location":"12012 N Mopac Expy,United States,TX,Austin,78758",
+          "route_type":"Sales Return",
+          "route_description":"",
+          "sales_rep":"Gopinath"
         },
         {
           "id": "2",
@@ -17636,7 +17752,12 @@
           "Occurrencetype": "Weekly",
           "starts_on": "05/03/2026",
           "next_occurs_on": "25/03/2026",
-          "ends_on": "15/04/2026"
+          "ends_on": "15/04/2026",
+          "start_location":"400 S Orange Ave, Orlando, FL 32801, USA",
+          "route_type":"Delivery",
+          "route_description":"Route Delivery",
+          "sales_rep":"Gopinath"
+          
         },
         {
           "id": "3",
@@ -17650,7 +17771,11 @@
           "Occurrencetype": "Weekly",
           "starts_on": "05/02/2026",
           "next_occurs_on": "25/02/2026",
-          "ends_on": "17/03/2026"
+          "ends_on": "17/03/2026",
+          "start_location":"1234 Maple Street ,Los Angeles, California, 90001",
+          "route_type":"Delivery",
+          "route_description":"",
+          "sales_rep":"Gopinath"
         },
         {
           "id": "4",
@@ -17664,7 +17789,11 @@
           "Occurrencetype": "Weekly",
           "starts_on": "21/03/2026",
           "next_occurs_on": "11/04/2026",
-          "ends_on": "01/05/2026"
+          "ends_on": "01/05/2026",
+          "start_location":"875 N Michigan Ave, Chicago, IL 60611, USA",
+          "route_type":"Sales Return",
+          "route_description":"route added",
+          "sales_rep":"Gopinath"
         }
       ],
       "totalRecords": 3
